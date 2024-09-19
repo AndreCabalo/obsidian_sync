@@ -25,14 +25,46 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pags/Dicas/Dicas GitHUB.md",
+                "file": "Estudos/FIAP/Fase6/Cap 2 - Devops e sua importancia.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f0bd42365069819c",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Images/Pasted image 20240918175743.png"
+              }
+            }
+          },
+          {
+            "id": "532d0cf23caa575a",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Images/Pasted image 20240918175743.png"
+              }
+            }
+          },
+          {
+            "id": "466931da8440cca3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Estudos/Alura/Dicas Intellij/Dicas Intellij.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -82,7 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 367.5
   },
   "right": {
     "id": "42950237ce869e40",
@@ -98,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pags/Links úteis/Pagmon.md",
+                "file": "Estudos/Alura/Dicas Intellij/Dicas Intellij.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pags/Links úteis/Pagmon.md",
+                "file": "Estudos/Alura/Dicas Intellij/Dicas Intellij.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pags/Links úteis/Pagmon.md"
+                "file": "Estudos/Alura/Dicas Intellij/Dicas Intellij.md"
               }
             }
           },
@@ -169,34 +201,45 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "9518c628098a9a0e",
+  "active": "466931da8440cca3",
   "lastOpenFiles": [
-    "Pags/Dicas",
-    "Pasted image 20240918175743.png",
-    "Pags/Links úteis/Pagmon.md",
-    "Pags/Dicas/Dicas GitHUB.md",
-    "Pags/Links úteis/Store Products Links.md",
-    "Pags/Links úteis/Store Cart BFF Links.md",
-    "Pags/Links úteis/Store  Promotion Links.md",
-    "Pags/Recorrência/Avisar no TEAM AQUISITION.md",
-    "Pags/Recorrência",
-    "Core.md",
-    "Desinstalar mysql local (conflito com docker mysql).md",
-    "Estudo sobre a Store-Promotion.md",
-    "Pags/Cards/GRE-2115- Análise implementação na promotion/GRE-2115 Implementação cat de promoções.md",
-    "Avisos",
-    "Estudos/Instruções/Oracle/Oracle.md",
-    "Estudos/Instruções/application.properties.md",
-    "Estudos/Instruções/Dbeaver.md",
-    "Estudos/Instruções/Docker.md",
-    "Estudos/Instruções/GIT HUB.md",
-    "Estudos/Instruções/Linha de comando.md",
-    "Estudos/Instruções/Properties ou YAML.md",
     "Estudos/Instruções/Remover obrigatóriedade do Sudo nos docker.md",
-    "Pags/Infos Pags/Cards.md",
-    "Flyway.md",
-    "Pags/DesafioPagBank/Desafio Pagbank.md",
+    "Estudos/Instruções/Properties ou YAML.md",
+    "Estudos/Instruções/Linha de comando.md",
+    "Estudos/Instruções/Docker.md",
+    "Estudos/Instruções/Dbeaver.md",
+    "Estudos/Instruções/application.properties.md",
+    "Estudos/Instruções/Oracle/Oracle.md",
+    "Estudos/Instruções/GIT HUB.md",
+    "Estudos/Instruções/MYSQL/Solução erro do MYSQL DOCKER.md",
+    "Estudos/Instruções/MYSQL/Rodar MySQL no container.md",
     "Estudos/Instruções/MYSQL/MySQL.md",
+    "Estudos/Spring.md",
+    "Estudos/FIAP/Fase6/Cap 2 - Devops e sua importancia.md",
+    "Estudos/FIAP/Fase6/Cap  3 - Deployment na Nuvem.md",
+    "Flyway.md",
+    "Desinstalar mysql local (conflito com docker mysql).md",
+    "Pags/Config dos RUN/Store-Products/RUNS da Store Products.md",
+    "Pags/Config dos RUN/Store-Promotion/RUNS da Store Promotion.md",
+    "Estudos/Alura/Dicas Intellij/Dicas Intellij.md",
+    "Pags/Config dos RUN/Store-Promotion",
+    "Pags/Config dos RUN/Store-Products",
+    "Pags/Config dos RUN",
+    "Pags/Cards/GRE-2115- Análise implementação na promotion/GRE-2115 Implementação cat de promoções.md",
+    "Estudos/Alura/Dicas Intellij",
+    "Images/Pasted image 20240919154957.png",
+    "Images/Pasted image 20240919154020.png",
+    "Images/Pasted image 20240918175743.png",
+    "Pags/Links úteis/Store  Promotion Links.md",
+    "Pags/Dicas/Rodar Tasks antes da PR.md",
+    "Pags/Dicas/Dicas GitHUB.md",
+    "Pags/Cards/GRE-2127 Erro ao armazenar dados/GRE-2127 Erro ao armazenar dados.md",
+    "Pags/Links úteis/Pagmon.md",
+    "Pags/Cards/GRE-2127 Erro ao armazenar dados",
+    "Pags/Dicas",
+    "Pags/Links úteis/Store Products Links.md",
+    "Pags/Recorrência",
+    "Avisos",
     "Images/TPromotion.png",
     "Images/Pasted image 20240916144113.png",
     "Images/Pasted image 20240829124145.png",
@@ -204,16 +247,7 @@
     "Images/Pasted image 20240808141636.png",
     "Pags/Cards/GRE-2115- Análise implementação na promotion",
     "Pags/Cards",
-    "Pags/Infos Pags/Cron Exprssions.md",
-    "Pags/DesafioPagBank/Dificuldade durante o desafio.md",
-    "Pags/Infos Pags/Organograma.md",
     "Images/Organograma.png",
-    "Pags/Links úteis",
-    "Alura/Java",
-    "Alura",
-    "Images",
-    "FIAP/Fase6",
-    "FIAP",
     "Pags/Infos Pags/Pasted image 20240807105443.png"
   ]
 }
