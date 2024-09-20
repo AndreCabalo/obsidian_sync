@@ -263,7 +263,7 @@ Pré-requisitios e etapas de config:
 ## Construção e disponibilização de app na nuvem 
 
 Clonei projeto Python, deixei local e remoto.
-E aprendi com as [[Instruções Github]]
+E aprendi com as [[Vincular local existente ao novo remoto]]
 
 Agora na Azure> buscar por "serviços de aplicativos"> criar> aplicativo web
 

@@ -57,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estudos/Alura/Dicas Intellij/Dicas Intellij.md",
+                "file": "Estudos/FIAP/Fase6/Cap 3 - Deployment na Nuvem.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Estudos/Alura/Dicas Intellij/Dicas Intellij.md",
+                "file": "Estudos/FIAP/Fase6/Cap 3 - Deployment na Nuvem.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Estudos/Alura/Dicas Intellij/Dicas Intellij.md",
+                "file": "Estudos/FIAP/Fase6/Cap 3 - Deployment na Nuvem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estudos/Alura/Dicas Intellij/Dicas Intellij.md"
+                "file": "Estudos/FIAP/Fase6/Cap 3 - Deployment na Nuvem.md"
               }
             }
           },
@@ -201,8 +201,24 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "466931da8440cca3",
+  "active": "9518c628098a9a0e",
   "lastOpenFiles": [
+    "Estudos/FIAP/Fase6/Cap  4 - Azure Devops e Ferramentas.md",
+    "Pags/Promoções/BlackFridayBasico.md",
+    "Desinstalar mysql local (conflito com docker mysql).md",
+    "Pags/Promoções",
+    "Estudos/Instruções/Flyway/Flyway.md",
+    "Estudos/Instruções/Flyway",
+    "Pags/CodeReview/GRE-2102 REVIEW.md",
+    "Core.md",
+    "Images/Pasted image 20240920122301.png",
+    "Pasted image 20240920122136.png",
+    "Estudos/GitHub/Pegar nova branch criada.md",
+    "Pags/CodeReview",
+    "Estudos/GitHub/Vincular local existente ao novo remoto.md",
+    "Estudos/FIAP/Fase6/Cap 3 - Deployment na Nuvem.md",
+    "Estudos/Alura/Dicas Intellij/Dicas Intellij.md",
+    "Estudos/GitHub",
     "Estudos/Instruções/Remover obrigatóriedade do Sudo nos docker.md",
     "Estudos/Instruções/Properties ou YAML.md",
     "Estudos/Instruções/Linha de comando.md",
@@ -217,37 +233,21 @@
     "Estudos/Spring.md",
     "Estudos/FIAP/Fase6/Cap 2 - Devops e sua importancia.md",
     "Estudos/FIAP/Fase6/Cap  3 - Deployment na Nuvem.md",
-    "Flyway.md",
-    "Desinstalar mysql local (conflito com docker mysql).md",
     "Pags/Config dos RUN/Store-Products/RUNS da Store Products.md",
     "Pags/Config dos RUN/Store-Promotion/RUNS da Store Promotion.md",
-    "Estudos/Alura/Dicas Intellij/Dicas Intellij.md",
     "Pags/Config dos RUN/Store-Promotion",
     "Pags/Config dos RUN/Store-Products",
     "Pags/Config dos RUN",
-    "Pags/Cards/GRE-2115- Análise implementação na promotion/GRE-2115 Implementação cat de promoções.md",
     "Estudos/Alura/Dicas Intellij",
     "Images/Pasted image 20240919154957.png",
     "Images/Pasted image 20240919154020.png",
     "Images/Pasted image 20240918175743.png",
-    "Pags/Links úteis/Store  Promotion Links.md",
-    "Pags/Dicas/Rodar Tasks antes da PR.md",
-    "Pags/Dicas/Dicas GitHUB.md",
-    "Pags/Cards/GRE-2127 Erro ao armazenar dados/GRE-2127 Erro ao armazenar dados.md",
-    "Pags/Links úteis/Pagmon.md",
     "Pags/Cards/GRE-2127 Erro ao armazenar dados",
     "Pags/Dicas",
-    "Pags/Links úteis/Store Products Links.md",
-    "Pags/Recorrência",
-    "Avisos",
     "Images/TPromotion.png",
     "Images/Pasted image 20240916144113.png",
     "Images/Pasted image 20240829124145.png",
     "Images/Pasted image 20240808141717.png",
-    "Images/Pasted image 20240808141636.png",
-    "Pags/Cards/GRE-2115- Análise implementação na promotion",
-    "Pags/Cards",
-    "Images/Organograma.png",
-    "Pags/Infos Pags/Pasted image 20240807105443.png"
+    "Images/Pasted image 20240808141636.png"
   ]
 }
