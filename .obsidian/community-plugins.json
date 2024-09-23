@@ -1,4 +1,7 @@
 [
   "obsidian-git",
-  "mermaid-tools"
+  "mermaid-tools",
+  "obsidian-minimal-settings",
+  "calendar",
+  "obsidian-excalidraw-plugin"
 ]

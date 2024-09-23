@@ -4,79 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "97ed0e6e44b11b55",
+        "id": "7197323b0d8ee7f6",
         "type": "tabs",
         "children": [
           {
-            "id": "25d9633319225f7f",
+            "id": "a32320d34934d7ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pags/Links úteis/Pagmon.md",
+                "file": "Docs para Kubectx Kubens.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "124840a6abff2e16",
+            "id": "cbdc71fe97c06a0b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Estudos/FIAP/Fase6/Cap 2 - Devops e sua importancia.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f0bd42365069819c",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Images/Pasted image 20240918175743.png"
-              }
-            }
-          },
-          {
-            "id": "532d0cf23caa575a",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Images/Pasted image 20240918175743.png"
-              }
-            }
-          },
-          {
-            "id": "2201af42220605e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pags/Passos para subir entrega/Subir entrega.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d47db99ff8f5e758",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Estudos/Spring.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2024-09-23 18.18.15.excalidraw.md"
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Estudos/Spring.md",
+                "file": "Excalidraw/Drawing 2024-09-23 18.18.15.excalidraw.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -159,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Estudos/Spring.md",
+                "file": "Excalidraw/Drawing 2024-09-23 18.18.15.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,15 +136,23 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estudos/Spring.md"
+                "file": "Excalidraw/Drawing 2024-09-23 18.18.15.excalidraw.md"
               }
             }
           },
           {
-            "id": "ff87d59210770308",
+            "id": "3bbe9271a92099b4",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "94b5d3f596837dc7",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
               "state": {}
             }
           }
@@ -199,8 +161,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,18 +171,25 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9518c628098a9a0e",
+  "active": "cbdc71fe97c06a0b",
   "lastOpenFiles": [
-    "Estudos/FIAP/Startup/Duvidas.md",
+    "Docs para Kubectx Kubens.md",
+    "Excalidraw/Drawing 2024-09-23 18.18.15.excalidraw.md",
+    "Excalidraw/Drawing 2024-09-23 18.17.48.excalidraw.md",
+    "Excalidraw",
     "Pasted image 20240923165809.png",
+    "Estudos/Spring.md",
+    "Pags/Passos para subir entrega/Subir entrega.md",
+    "Images/Pasted image 20240918175743.png",
+    "Estudos/FIAP/Fase6/Cap 2 - Devops e sua importancia.md",
+    "Pags/Links úteis/Pagmon.md",
+    "Estudos/FIAP/Startup/Duvidas.md",
     "Pags/Links úteis/Jenkins.md",
     "Estudos/FIAP/Startup",
-    "Pags/Links úteis/Pagmon.md",
-    "Pags/Passos para subir entrega/Subir entrega.md",
-    "Docs para Kubectx Kubens.md",
     "Pags/Passos para subir entrega",
     "Pags/Recorrência/Avisar no TEAM AQUISITION.md",
     "Estudos/FIAP/Fase6/Cap  4 - Azure Devops e Ferramentas.md",
@@ -246,16 +214,11 @@
     "Estudos/Instruções/Docker.md",
     "Estudos/Instruções/Dbeaver.md",
     "Estudos/Instruções/application.properties.md",
-    "Estudos/Instruções/Oracle/Oracle.md",
-    "Estudos/Instruções/GIT HUB.md",
-    "Estudos/Instruções/MYSQL/Solução erro do MYSQL DOCKER.md",
     "Pags/Config dos RUN/Store-Promotion",
     "Pags/Config dos RUN/Store-Products",
     "Pags/Config dos RUN",
-    "Estudos/Alura/Dicas Intellij",
     "Images/Pasted image 20240919154957.png",
     "Images/Pasted image 20240919154020.png",
-    "Images/Pasted image 20240918175743.png",
     "Images/TPromotion.png",
     "Images/Pasted image 20240916144113.png",
     "Images/Pasted image 20240829124145.png",
