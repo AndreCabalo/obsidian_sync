@@ -4,243 +4,45 @@
     "type": "split",
     "children": [
       {
-        "id": "97ed0e6e44b11b55",
+        "id": "7197323b0d8ee7f6",
         "type": "tabs",
         "children": [
           {
-            "id": "b9439b8e80649886",
+            "id": "a32320d34934d7ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pags/DesafioPagBank/Desafio Pagbank.md",
+                "file": "Estudos/Alura/Java/Enum.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b7253ccf44007140",
+            "id": "ee8535b55bd86382",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estudos/Spring.md",
+                "file": "Estudos/Instruções/PostgreSQL/Instalação do PostgreSQL Linux.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "cae00efe53f8858a",
+            "id": "cbdc71fe97c06a0b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Pags/Infos Pags/Cron Exprssions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c36dfc9088443502",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "cabcc5d654800a5c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Estudos/Instruções/MYSQL/SQL Bugado.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6f9137dd402c75b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Estudos/Instruções/MYSQL/MySQL.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8e516ac4de867ce1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Estudos/Instruções/MYSQL/MySQL.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "409394428b611b25",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pags/DesafioPagBank/Desafio Pagbank.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "def75f911f66e4e4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Estudos/Instruções/MYSQL/SQL Bugado.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "72770caf31547d20",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Estudos/Instruções/Docker.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7fd06ffa25b8a7bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Estudos/Instruções/MYSQL/Rodar MySQL no container.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ca63f3c2824943dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Estudos/Instruções/MYSQL/MySQL.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e366b5554c4ebec0",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "ff4cc3bafb031801",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FIAP/Fase6/Cap 2 - Devops e sua importancia.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0346c712f49e9df1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Alura/Java/Estatísticas.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "40d754e0861a6561",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Alura/Java/Java Streams.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "74d5c73259b44e0a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pags/Links úteis/Store Products Links.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fefbdc65c19f2615",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pags/Links úteis/Store  Promotion Links.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "693ceef235b41d3e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Estudo sobre a Store-Promotion.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "25d9633319225f7f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pags/Cards/GRE-2115- Análise implementação na promotion/GRE-2115 Implementação cat de promoções.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2024-09-23 18.18.15.excalidraw.md"
               }
             }
           }
         ],
-        "currentTab": 19
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -269,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vertical",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -290,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 372.5
+    "width": 367.5
   },
   "right": {
     "id": "42950237ce869e40",
@@ -306,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pags/Cards/GRE-2115- Análise implementação na promotion/GRE-2115 Implementação cat de promoções.md",
+                "file": "Estudos/Instruções/PostgreSQL/Instalação do PostgreSQL Linux.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -323,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pags/Cards/GRE-2115- Análise implementação na promotion/GRE-2115 Implementação cat de promoções.md",
+                "file": "Estudos/Instruções/PostgreSQL/Instalação do PostgreSQL Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -346,16 +148,33 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pags/Cards/GRE-2115- Análise implementação na promotion/GRE-2115 Implementação cat de promoções.md"
+                "file": "Estudos/Instruções/PostgreSQL/Instalação do PostgreSQL Linux.md"
               }
+            }
+          },
+          {
+            "id": "3bbe9271a92099b4",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "94b5d3f596837dc7",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -365,52 +184,57 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "25d9633319225f7f",
+  "active": "ee8535b55bd86382",
   "lastOpenFiles": [
-    "Images/TPromotion.png",
-    "Images/Pasted image 20240916144113.png",
-    "Images/Pasted image 20240829124145.png",
-    "Images/Pasted image 20240808141717.png",
-    "Images/Pasted image 20240808141636.png",
+    "Estudos/Alura/APIChatGPT/Passo a passo.md",
+    "Estudos/Instruções/PostgreSQL/Instalação do PostgreSQL Linux.md",
+    "Estudos/FIAP/Fase6/Cap 4 - Azure Devops e Ferramentas.md",
+    "Estudos/Instruções/PostgreSQL",
+    "Images/Pasted image 20240926144145.png",
+    "Images/Pasted image 20240926142857.png",
+    "Images/Pasted image 20240926140721.png",
+    "Images/Pasted image 20240926134743.png",
+    "Images/Pasted image 20240926134233.png",
+    "Estudos/Alura/Java/Enum.md",
+    "Pags/Daily",
+    "Estudos/Alura/APIChatGPT",
+    "Estudos/Alura/Java/Métodos estáticos.md",
+    "Pags/Recorrência/NewRelic -> Pagmon.md",
+    "Estudos/GitHub/Vincular local existente ao novo remoto.md",
+    "pagbank-hike.inpaas.com.md",
+    "Pags/Links úteis/Transferir arquivo pela VM.md",
     "Pags/Cards/GRE-2115- Análise implementação na promotion/GRE-2115 Implementação cat de promoções.md",
-    "Pags/DesafioPagBank/Desafio Pagbank.md",
-    "Pags/Cards/GRE-2115- Análise implementação na promotion",
-    "Estudo sobre a Store-Promotion.md",
-    "Pags/Cards",
     "Pags/Links úteis/Store  Promotion Links.md",
-    "Pags/Links úteis/Store Cart BFF Links.md",
-    "Pags/Links úteis/Store Products Links.md",
-    "Pags/Infos Pags/Cron Exprssions.md",
-    "Pags/DesafioPagBank/Dificuldade durante o desafio.md",
-    "Pags/Infos Pags/Organograma.md",
-    "Images/Organograma.png",
-    "Pags/Infos Pags/Cards.md",
-    "Alura/Java/Java Streams.md",
-    "Pags/Links úteis",
-    "Alura/Java/Estatísticas.md",
-    "Alura/Java",
-    "FIAP/Fase6/Cap 2 - Devops e sua importancia.md",
-    "Flyway.md",
-    "Alura",
-    "Core.md",
+    "Pags/Daily/Daily.md",
+    "Estudos/FIAP/Startup/Duvidas.md",
+    "Docs para Kubectx Kubens.md",
+    "Excalidraw/Drawing 2024-09-23 18.18.15.excalidraw.md",
+    "Excalidraw/Drawing 2024-09-23 18.17.48.excalidraw.md",
+    "Excalidraw",
+    "Pasted image 20240923165809.png",
+    "Estudos/Spring.md",
+    "Pags/Passos para subir entrega/Subir entrega.md",
+    "Images/Pasted image 20240918175743.png",
+    "Estudos/FIAP/Fase6/Cap 2 - Devops e sua importancia.md",
+    "Pags/Links úteis/Pagmon.md",
+    "Pags/Links úteis/Jenkins.md",
+    "Estudos/FIAP/Startup",
+    "Pags/Passos para subir entrega",
+    "Pags/Recorrência/Avisar no TEAM AQUISITION.md",
+    "Pags/Promoções/BlackFridayBasico.md",
     "Desinstalar mysql local (conflito com docker mysql).md",
-    "Images",
-    "FIAP/Fase6",
-    "FIAP",
-    "Estudos/Instruções/MYSQL/SQL Bugado.md",
-    "Estudos/Instruções/MYSQL/Solução erro do MYSQL DOCKER.md",
-    "Estudos/Instruções/MYSQL/Rodar MySQL no container.md",
-    "Estudos/Instruções/MYSQL/MySQL.md",
-    "Estudos/Instruções/Oracle/Oracle.md",
-    "Estudos/Instruções/Oracle",
-    "Estudos/Instruções/GIT HUB.md",
-    "Estudos/Instruções/Remover obrigatóriedade do Sudo nos docker.md",
-    "Estudos/Instruções/Properties ou YAML?.md",
-    "Estudos/Instruções/Linha de comando.md",
-    "remoto-blog",
-    "Pags/Infos Pags/Pasted image 20240807105443.png"
+    "Pags/Promoções",
+    "Estudos/Instruções/Flyway/Flyway.md",
+    "Estudos/Instruções/Flyway",
+    "Pags/CodeReview/GRE-2102 REVIEW.md",
+    "Images/Pasted image 20240920122301.png",
+    "Pasted image 20240920122136.png",
+    "Pags/CodeReview",
+    "Estudos/GitHub",
+    "Images/Pasted image 20240919154957.png"
   ]
 }
