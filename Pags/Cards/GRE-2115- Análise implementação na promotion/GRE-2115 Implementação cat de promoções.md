@@ -19,6 +19,27 @@ Por tanto coloquei:
 E recebo essa exceção:
 	
 `FAILURE: Build failed with an exception.`
+<<<<<<< HEAD
+=======
+
+* `What went wrong:`
+`Could not initialize class org.codehaus.groovy.runtime.InvokerHelper`
+> `Exception java.lang.NoClassDefFoundError: Could not initialize class org.codehaus.groovy.reflection.ReflectionCache [in thread "Daemon worker"]`
+
+* `Try:`
+`Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.`
+
+* `Get more help at https://help.gradle.org`
+
+##### Como acessar o banco local do store promotion?
+
+Segui a url do applicaiton-local da store-promotion-packager
+	Pórem ao tentar acessar o banco aparece o erro: 
+		Access denied for user 'root'@'172.30.35.182' (using password: NO)
+
+
+### Duvidas sobre as tabelas de Store Promotion
+>>>>>>> 0b3a780b7d9536df20b36a3651e50b8c3c05b858
 
 * `What went wrong:`
 `Could not initialize class org.codehaus.groovy.runtime.InvokerHelper`
@@ -49,6 +70,12 @@ Segui a url do applicaiton-local da store-promotion-packager
 ### Dúvidas sobre featuregateway
 
 Como excluir a lista de promoções especiais de la?
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 0b3a780b7d9536df20b36a3651e50b8c3c05b858
 ## Passos para desenvolvimento:
 
 1. Criar um scrip no migration para adicionar um tabela ou usar uma tabela atual
@@ -80,6 +107,7 @@ SE NÃO, consulta o feature-toggle para saber se é uma promoção especial.
 			SE ALGUM FOR FALSE, Inelegivel.
 SE SIM, consulta a API do MGM para verificar se é elegivel utilizando o código passado
 
+<<<<<<< HEAD
 
 ## Quem usa o feature gateway para validar promoções especiais?
 
@@ -101,6 +129,8 @@ Promotion-core>core>service>impl>FeatureGatewayServiceImpl
 Promotion-core>core>service>impl> PromotionEligibleServiceImpl
 
 - Método chooseEligibilityStrategy
+=======
+>>>>>>> 0b3a780b7d9536df20b36a3651e50b8c3c05b858
 
 
 
