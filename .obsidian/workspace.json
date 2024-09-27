@@ -4,31 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "7197323b0d8ee7f6",
+        "id": "5fc06221c18af1d2",
         "type": "tabs",
         "children": [
           {
-            "id": "a32320d34934d7ab",
+            "id": "1fd23193459f566e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pags/Promoções/BlackFridayBasico.md",
+                "file": "Pags/Links úteis/Pagmon.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "a4b33c54f5840ec7",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Pags/Links úteis/Pagmon.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -110,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Pags/Links úteis/Pagmon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Pags/Links úteis/Pagmon.md"
+              }
             }
           },
           {
@@ -170,8 +165,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a4b33c54f5840ec7",
+  "active": "1fd23193459f566e",
   "lastOpenFiles": [
+    "Pags/Promoções/BlackFridayBasico.md",
     "Pags/Links úteis/Kafka.md",
     "Pags/Links úteis/Jenkins.md",
     "Estudos/Instruções/Flyway/Flyway.md",
@@ -189,7 +185,6 @@
     "Excalidraw/Drawing 2024-09-27 16.27.24.excalidraw.md",
     "Excalidraw/Untitled.canvas",
     "Excalidraw/Drawing 2024-09-27 16.26.43.excalidraw.md",
-    "Pags/Promoções/BlackFridayBasico.md",
     "Pags/Dicas/Dicas GitHUB.md",
     "Pags/Infos Pags/Cron Exprssions.md",
     "Pags/Infos Pags/Cards.md",
