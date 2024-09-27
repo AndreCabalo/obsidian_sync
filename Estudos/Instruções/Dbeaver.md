@@ -1,3 +1,4 @@
+[[Estudos]]
 1. Selecione para conectar o Dbeaber com o [[MySQL]]
 2. Next>
 3. confira a porta, similar ao que você subir no [[MySQL]] no  [[Docker]]

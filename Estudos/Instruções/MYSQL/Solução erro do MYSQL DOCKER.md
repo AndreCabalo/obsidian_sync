@@ -1,3 +1,4 @@
+[[Estudos]]
 Se ao tentar iniciar o mysql docker atraves do comando :
 ```
 docker start mysql

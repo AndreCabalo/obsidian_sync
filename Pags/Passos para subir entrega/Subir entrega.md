@@ -1,7 +1,9 @@
+[[Pagbank]]
 ## Analisar Pagmon, o contexto que você ira atuar
 [Pagmon](https://pagmon.intranet.pags/d/sPmipFUVk/la-palma-red-metrics?orgId=1&refresh=1m)
 
-## Verficar qual das ordens deve ser feita:
+## Verfi
+car qual das ordens deve ser feita:
 
 ### Mergear Develop na Master antes
 Rodar jenkins na Branch que vc criou, caso tenha opção de selecionar a branch e roda pipeline

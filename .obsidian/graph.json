@@ -5,18 +5,54 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:Estudos/Alura/Java  ",
+      "color": {
+        "a": 1,
+        "rgb": 16718362
+      }
+    },
+    {
+      "query": "path:Estudos/FIAP  ",
+      "color": {
+        "a": 1,
+        "rgb": 15073326
+      }
+    },
+    {
+      "query": "path:Estudos/Alura  ",
+      "color": {
+        "a": 1,
+        "rgb": 2818303
+      }
+    },
+    {
+      "query": "path:Estudos",
+      "color": {
+        "a": 1,
+        "rgb": 6084188
+      }
+    },
+    {
+      "query": "path:Pags  ",
+      "color": {
+        "a": 1,
+        "rgb": 16753152
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
-  "collapse-forces": true,
+  "collapse-forces": false,
   "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.3554030054147672,
-  "close": true
+  "scale": 0.9036020036098448,
+  "close": false
 }

@@ -1,3 +1,4 @@
+[[Java]][[Estudos]][[Alura]]
 
 É aquele que não precisa de nenhuma instancia da classe para ser chamado.
 Ideal para quando não precisamos interagir com os atributos ou métodos de um objeto criado.

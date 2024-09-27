@@ -1,4 +1,4 @@
-
+[[Estudos]]
 ## Arquivo de propriedades
 
 Por padrão, o Spring Boot acessa as configurações definidas no arquivo `application.properties`, que usa um formato de `chave=valor`:

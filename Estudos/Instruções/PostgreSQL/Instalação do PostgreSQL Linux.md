@@ -1,3 +1,4 @@
+[[Estudos]][[PostgreSQL]]
 ### Baixar as atualizações e infos dos pacotes de todas as fontes
 ```sudo apt update```
 

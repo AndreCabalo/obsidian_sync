@@ -1,4 +1,4 @@
-
+[[Java]][[Estudos]]
 Problemas com migrações com erros em SQL
 
 Para resolver esse problema será necessário acessar o banco de dados da aplicação e executar o seguinte comando sql:
