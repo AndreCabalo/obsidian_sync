@@ -1,3 +1,4 @@
+[[Java]][[Estudos]][[Alura]]
 ## DoubleSummaryStatistics
 
 Classe utilitária que permite calcular estatísticas como soma, média, valor mínimo e máximo, além do total de elementos em uma coleção de valores do tipo double

@@ -1,4 +1,4 @@
-
+[[Estudos]][[Alura]]
 Atalhos > [Acesse aqui](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf)
 
 # Criação

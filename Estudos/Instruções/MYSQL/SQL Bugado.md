@@ -1,3 +1,4 @@
+[[Estudos]]
 SE O SQL BUGAR:
 
 verificar se tem algum container rodando:

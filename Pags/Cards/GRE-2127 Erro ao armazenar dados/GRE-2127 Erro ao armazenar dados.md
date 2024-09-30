@@ -1,3 +1,5 @@
+[[Pagbank]]
+
 ### Origem do bug Método attachTagToProduct
 Não estava setando o novo nameAgent
 Não estava setando o novo log

@@ -1,4 +1,4 @@
-
+[[Pagbank]]
 
 Se o contrato é custom
 Estamos retornando que é falso que não contem um contrato costumizado

@@ -1,4 +1,4 @@
-
+[[Estudos]][[FIAP]]
 Escalonamento da infraestrutura, existem dois modelos:
 
 # Escalonamentos

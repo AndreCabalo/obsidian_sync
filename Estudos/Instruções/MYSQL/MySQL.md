@@ -1,4 +1,4 @@
-
+[[Estudos]]
 [[Solução erro do MYSQL DOCKER]]
 [[SQL Bugado]]
 [[Desinstalar mysql local (conflito com docker mysql)]]

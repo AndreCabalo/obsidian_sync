@@ -1,3 +1,4 @@
+[[Java]][[Estudos]][[Alura]]
 Uma caracteristica poderosa que oferece a capacidade de eralizar operações de processamento de dados complexas de forma eficiente e em paralelo, sobre collections, arrays e I/O Channels.
 
 ## Streams infinitos
