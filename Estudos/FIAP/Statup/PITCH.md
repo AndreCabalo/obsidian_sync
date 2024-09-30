@@ -2,8 +2,11 @@
 BDIA
 BTARDE
 Meu nome
-Para que vocês entendam o core do nosso negócio, bolamos uma analogia, bora lá!
-Se Imagine dirigir um carro....
+Já imaginaram dirigir um carro...
+
+
+
+
 ## 2 SEM FREIO 
 SEM FREIO!...
 Isso mesmo sem freio.
@@ -86,3 +89,5 @@ Plano premium, onde o usuário tem algumas vantagens como
 ## 26 SQUAD
 
 ## 27 QRCode com prototipo
+
+
