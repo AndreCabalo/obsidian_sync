@@ -13,9 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pags/Links úteis/Pagmon.md",
+                "file": "Estudos/FIAP/Fase6/Cap 5 - CI CD.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "12628690520c92c6",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Images/Pasted image 20240930141043.png"
               }
             }
           }
@@ -85,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pags/Links úteis/Pagmon.md",
+                "file": "Estudos/FIAP/Fase6/Cap 5 - CI CD.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pags/Links úteis/Pagmon.md",
+                "file": "Estudos/FIAP/Fase6/Cap 5 - CI CD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pags/Links úteis/Pagmon.md"
+                "file": "Estudos/FIAP/Fase6/Cap 5 - CI CD.md"
               }
             }
           },
@@ -167,6 +177,29 @@
   },
   "active": "1fd23193459f566e",
   "lastOpenFiles": [
+    "Pags/Config dos RUN/Store-Checkout/RUNS da Store Checkout.md",
+    "Estudos/FIAP/Fase6/Cap 5 - CI CD.md",
+    "Pags/Links úteis/Transferir arquivo pela VM.md",
+    "Pags/Config dos RUN/Store-Promotion/RUNS da Store Promotion.md",
+    "Pags/Config dos RUN/Store-Products/RUNS da Store Products.md",
+    "Pags/Config dos RUN/Store-Checkout",
+    "Images/Pasted image 20240930141026.png",
+    "Images/Pasted image 20240930141043.png",
+    "Images/Pasted image 20240930141439.png",
+    "Images/Pasted image 20240930152900.png",
+    "Images/Pasted image 20240930153556.png",
+    "Excalidraw/Drawing 2024-09-23 18.17.48.excalidraw.md",
+    "Estudos/FIAP/Fase6/Cap 3 - Deployment na Nuvem.md",
+    "Estudos/FIAP/Fase6/Cap 4 - Azure Devops e Ferramentas.md",
+    "Estudos/FIAP/Fase6/Cap 2 - Devops e sua importancia.md",
+    "Images/Pasted image 20240930140256.png",
+    "Images/Pasted image 20240930140048.png",
+    "Images/Pasted image 20240930135843.png",
+    "Images/Pasted image 20240930134813.png",
+    "Images/Pasted image 20240930134639.png",
+    "Estudos/FIAP/Fase6/Cap  4 - Azure Devops e Ferramentas.md",
+    "Pags/Daily/Daily.md",
+    "Pags/Links úteis/Pagmon.md",
     "Pags/Promoções/BlackFridayBasico.md",
     "Pags/Links úteis/Kafka.md",
     "Pags/Links úteis/Jenkins.md",
@@ -179,40 +212,17 @@
     "Estudos/Alura/Java/Enum.md",
     "Estudos/Alura/Java/Application.properties.md",
     "Estudos/Alura/Dicas Intellij/Dicas Intellij.md",
-    "Excalidraw/Drawing 2024-09-23 18.17.48.excalidraw.md",
     "Pags/Cards/GRE-2127 Erro ao armazenar dados/GRE-2127 Erro ao armazenar dados.md",
     "Pags/Infos Pags/Organograma.md",
-    "Excalidraw/Drawing 2024-09-27 16.27.24.excalidraw.md",
     "Excalidraw/Untitled.canvas",
-    "Excalidraw/Drawing 2024-09-27 16.26.43.excalidraw.md",
-    "Pags/Dicas/Dicas GitHUB.md",
-    "Pags/Infos Pags/Cron Exprssions.md",
-    "Pags/Infos Pags/Cards.md",
-    "Pags/Dicas/Rodar Tasks antes da PR.md",
-    "Pags/DesafioPagBank/Dificuldade durante o desafio.md",
-    "Pags/DesafioPagBank/Desafio Pagbank.md",
-    "Pags/Daily/Daily.md",
-    "Pags/Config dos RUN/Store-Promotion/RUNS da Store Promotion.md",
-    "Pags/Config dos RUN/Store-Products/RUNS da Store Products.md",
-    "Images/Pasted image 20240927160158.png",
     "Estudos/Instruções/PostgreSQL",
-    "Images/Pasted image 20240926144145.png",
-    "Images/Pasted image 20240926142857.png",
-    "Images/Pasted image 20240926140721.png",
-    "Images/Pasted image 20240926134743.png",
-    "Images/Pasted image 20240926134233.png",
     "Pags/Daily",
     "Estudos/Alura/APIChatGPT",
     "Excalidraw",
-    "Pasted image 20240923165809.png",
-    "Images/Pasted image 20240918175743.png",
     "Estudos/FIAP/Startup",
     "Pags/Passos para subir entrega",
     "Pags/Promoções",
     "Estudos/Instruções/Flyway",
-    "Images/Pasted image 20240920122301.png",
-    "Pasted image 20240920122136.png",
-    "Pags/CodeReview",
-    "Estudos/GitHub"
+    "Pags/CodeReview"
   ]
 }
