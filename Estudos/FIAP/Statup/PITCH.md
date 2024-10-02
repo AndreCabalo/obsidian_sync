@@ -2,16 +2,9 @@
 BDIA
 BTARDE
 Meu nome
-<<<<<<< HEAD
 Para que vocês entendam o core do nosso negócio, bolamos uma analogia, bora lá!
-Se Imagine dirigir um carro....
-=======
 Já imaginaram dirigir um carro...
 
-
-
-
->>>>>>> 144f5a4ec888db126b1d29d22dc9cb5b579ccb0e
 ## 2 SEM FREIO 
 SEM FREIO!...
 Isso mesmo sem freio.
@@ -93,10 +86,3 @@ Plano premium, onde o usuário tem algumas vantagens como
 
 ## 26 SQUAD
 
-<<<<<<< HEAD
-## 27 QRCode com prototipo
-=======
-## 27 QRCode com prototipo
-
-
->>>>>>> 144f5a4ec888db126b1d29d22dc9cb5b579ccb0e
