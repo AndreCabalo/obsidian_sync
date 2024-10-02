@@ -136,3 +136,9 @@ Promotion-core>core>service>impl> PromotionEligibleServiceImpl
 
 
 
+
+
+POS REFINAMENTO
+Criar uma tabela
+Promotion category
+por ser uma N para N
