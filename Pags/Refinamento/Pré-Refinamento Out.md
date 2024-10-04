@@ -1,4 +1,4 @@
-
+[[Pagbank]]
 Ter checkout para nao ter tela intermediaria para capturar token
 
 Dificuldade stoke-checkout 

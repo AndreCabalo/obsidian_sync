@@ -1,5 +1,20 @@
 [[Java]]  [[Pagbank]]
 
+# LOCAL
+
+## RUN/DEBUG CONFIGURATIONS
+
+
+SPRING_PROFILES_ACTIVE=local,ap;
+PORT=8080
+## BANCO LOCAL MYSQL
+
+### URL
+	jdbc:mysql://localhost:3306/store_promotion
+### USER
+	root
+### Sem password
+
 
 # QA
 

@@ -1,3 +1,4 @@
+[[Pagbank]]
 ## Contexto
 
 Existe um intuito de diminuir a dependência do **feature gateway** na store-promotion. Pois atualmente ao verificar se uma programação é especial, precisamos acessar uma lista do feature gateway, afim de buscar se o nome da promoção consta nesta lista.

@@ -1,4 +1,4 @@
-
+[[Pagbank]]
 ## Contexto
 
 Atualmente para validar se uma promoção é especial ou não, é preciso acessar o feature gateway e verifica se o nome da promoção se encontra na lista de promoções especiais.

@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/Criar categorias de promoções.md",
+                "file": "Pags/Links úteis/Criar Chamado Tucuman.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b7b2b9ab4cafec88",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pags/Cards/GRE- 2117 Criar priority na product_tag/Criar priority na product tag.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,19 +49,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pags/Docs para Kubectx Kubens.md",
+                "file": "Pags/Config dos RUN/Store-Promotion/RUNS da Store Promotion.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "12628690520c92c6",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Images/Pasted image 20240930141043.png"
               }
             }
           }
@@ -120,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pags/Docs para Kubectx Kubens.md",
+                "file": "Pags/Cards/GRE- 2117 Criar priority na product_tag/Criar priority na product tag.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -137,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pags/Docs para Kubectx Kubens.md",
+                "file": "Pags/Cards/GRE- 2117 Criar priority na product_tag/Criar priority na product tag.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pags/Docs para Kubectx Kubens.md"
+                "file": "Pags/Cards/GRE- 2117 Criar priority na product_tag/Criar priority na product tag.md"
               }
             }
           },
@@ -185,7 +187,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,53 +202,54 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3c88c5dcdc652bcd",
+  "active": "b7b2b9ab4cafec88",
   "lastOpenFiles": [
+    "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/Criar categorias de promoções.md",
+    "Pags/Cards/GRE- 2117 Criar priority na product_tag/Criar priority na product tag.md",
+    "Pags/Links úteis/Criar Chamado Tucuman.md",
+    "Estudos/Alura/Java/Selecionar versão do JAVA.md",
+    "Estudos/FIAP/Startup/PostLinkedIn.md",
+    "Estudos/FIAP/Statup/GlicoTech.md",
+    "Estudos/FIAP/Statup/PITCH.md",
+    "Pags/Refinamento/Refinamento.md",
+    "Pags/Refinamento/Pré-Refinamento Out.md",
+    "Pags/Config dos RUN/Store-Promotion/RUNS da Store Promotion.md",
+    "Pags/Config dos RUN/Store-Products/RUNS da Store Products.md",
+    "Pags/Config dos RUN/Store-Checkout/RUNS da Store Checkout.md",
+    "Pags/CodeReview/GRE-2102 REVIEW.md",
+    "Pags/Cards/GRE-2127 Erro ao armazenar dados/GRE-2127 Erro ao armazenar dados.md",
+    "Pags/Cards/GRE-2115- Análise implementação na promotion/GRE-2115 Implementação cat de promoções.md",
+    "Pags/Cards/GRE-2115- Análise implementação na promotion/DOC CONFLUENCE.md",
+    "Pags/Cards/GRE-2115- Análise implementação na promotion/Doc como estava.md",
+    "Pags/Cards/GRE-2115- Análise implementação na promotion/ATT.md",
+    "Pags/Links úteis/Feature Gateway.md",
+    "Pags/Reuniões paralelas/Reunião Afiliados.md",
+    "Pags/Reuniões paralelas",
+    "Images/Pasted image 20240930141043.png",
+    "Pags/Docs para Kubectx Kubens.md",
     "Pasted image 20241001145151.png",
     "Pasted image 20241001145207.png",
     "Pasted image 20241001165016.png",
     "Desinstalar mysql local (conflito com docker mysql).md",
-    "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/Criar categorias de promoções.md",
     "Acessar dentro do Docker.md",
     "Pags/Dicas/Nunca mexa no banco QA.md",
-    "Pags/Config dos RUN/Store-Checkout/RUNS da Store Checkout.md",
-    "Pags/Config dos RUN/Store-Products/RUNS da Store Products.md",
-    "Pags/Config dos RUN/Store-Promotion/RUNS da Store Promotion.md",
     "Pags/Recorrência/2 de out 2024.md",
     "Pags/Repo Pipeline Jenkins/Repo PIPEJENKINS.md",
-    "Pags/Links úteis/Gerenciador.md",
-    "Pags/Recorrência/25 de set 2024.md",
-    "Pags/Cards/GRE- 2117 Criar priority na product_tag/Criar priority na product tag.md",
     "Pags/Cards/GRE- 2117 Criar priority na product_tag",
-    "Pags/Cards/GRE-2127 Erro ao armazenar dados/GRE-2127 Erro ao armazenar dados.md",
     "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes",
-    "Excalidraw/Drawing 2024-09-23 18.17.48.excalidraw.md",
     "Excalidraw/Drawing 2024-09-23 18.17.48.excalidraw.png",
-    "Excalidraw/Drawing 2024-10-01 18.00.55.excalidraw.md",
-    "Pags/Cards/GRE-2115- Análise implementação na promotion/DOC CONFLUENCE.md",
-    "Pags/Cards/GRE-2115- Análise implementação na promotion/ATT.md",
-    "Pags/Refinamento/Pré-Refinamento Out.md",
-    "Pags/Refinamento/Refinamento.md",
-    "Pags/Recorrência/18 de set 2024.md",
-    "Pags/Cards/GRE-2115- Análise implementação na promotion/GRE-2115 Implementação cat de promoções.md",
-    "Pags/Cards/GRE-2115- Análise implementação na promotion/Doc como estava.md",
-    "Pags/Links úteis/Feature Gateway.md",
-    "Pags/Links úteis/Transferir arquivo pela VM.md",
     "Pags/Refinamento",
-    "Estudos/Alura/Java/JPA/Relacionamentos entre Classes.md",
     "Estudos/Alura/Java/JPA",
     "Pags/Repo Pipeline Jenkins",
     "Estudos/FIAP/Statup",
     "Pags/Config dos RUN/Store-Checkout",
     "Images/Pasted image 20240930141026.png",
-    "Images/Pasted image 20240930141043.png",
     "Images/Pasted image 20240930141439.png",
     "Images/Pasted image 20240930152900.png",
     "Images/Pasted image 20240930153556.png",
     "Images/Pasted image 20240930140256.png",
     "Excalidraw/Untitled.canvas",
     "Estudos/Instruções/PostgreSQL",
-    "Pags/Daily",
-    "Estudos/Alura/APIChatGPT"
+    "Pags/Daily"
   ]
 }
