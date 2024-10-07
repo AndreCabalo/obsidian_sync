@@ -175,5 +175,121 @@ git config user.name "Seu Nome"
 ```
 
 
-## Parei no vídeo PRIMEIRO WORKFLOW
+## PRIMEIRO WORKFLOW
 
+1. GIT Clonando repo
+2. GIT Config user email
+3. GIT Config user name 
+4. Cria branch com base na checkout
+5. GIT push para subir o local para remoto
+
+6. Criar pasta na raiz do projeto ".github/workflows"
+7. Nesta pasta criamos um novo arquivo "meu-primeiro-workflow.yaml" ou .yml
+8. Colamos o codigo:
+
+```
+	on: push
+	jobs:
+	    job1-hello:
+	        runs-on: ubuntu-latest
+	        steps:
+	        - name: Imprimir mensagem
+	          run: echo "Olá, Mundo"
+	    job2-goodbye:
+	        runs-on: ubuntu-latest
+	        steps:
+	        - name: Step 1 - Sequencia de instruções
+	          run: |
+	            echo "Uma nova instrução"
+	            ls            
+	        - name: Step 2 - Imprimir mensagem
+	          run: echo "Até logo!" 
+```
+
+1. O código a cima diz:
+
+```
+	on: push                                  SEMPRE QUE FOR DADO UM PUSH
+	jobs:
+	    job1-hello:
+	        runs-on: ubuntu-latest            RODA UM SERVIC OP UBUNTO
+	        steps:
+	        - name: Imprimir mensagem         NAME DO STEP
+	          run: echo "Olá, Mundo"          INSTRUC DO STEP
+	    job2-goodbye:
+	        runs-on: ubuntu-latest
+	        steps:
+	        - name: Step 1 - Sequencia de instruções
+	          run: |
+	            echo "Uma nova instrução"
+	            ls            
+	        - name: Step 2 - Imprimir mensagem
+	          run: echo "Até logo!" 
+```
+
+1. Adicionar o item para o git com git add .
+2. git commit para adicionar as modificações
+3. git push
+4. Inserir senha do personal acess token
+5. Abrir o browser e navegar até o repositório
+6. Voltar no código e adiconar um name na primeira linha do arquivo .yaml
+
+	1. name: Meu primeiro workflow
+
+7. git add .
+8. git commit -m 
+9. git push
+10. Acessar repositorio remoto pelo navegador
+11. Na aba action temos os workflows
+12. Click em um dos jobs
+13. Expanda e verá que ao expandir ele executara os comandos.
+
+##  Componentes do Workflow
+
+1. **Name** - Não é explicitamente mostrado neste arquivo YAML, mas geralmente é definido no topo do arquivo para identificar o workflow dentro do github.
+2. **On** -	ESta chave define o evento que dispara o workflow. No exemplo fornecido, o worrkflow é ativado por qualquer ação de push no repositório.
+3. **Jobs** - Esta secção contém as definições dos jobs que serão executados quando o workflow for disparado. Cada job pode ser configurado para rodar em diferentes ambientes ou executores.
+	1. **job1-hello**: Este job roda no ambiente ubunto-latest e possui uma única etapa que executa o comando para imprimir 'Olá Mundo"
+	1. **job2-goodbye**: Este job tamém roda um ubunto-latest e é composto por duas etapas. A primeira executa um sequência de comandos que inclui imprimir uma msg e listar arquivos no diretório atual, enquanto a segundo imprime um "Até logo!"
+
+## Workflow de eventos filtrados
+
+1. Podemos configurar que pushes em branches com prefixo FREATURE disparem jobs de testes unitários, enquanto os pushes em branches DEVELOP acionem apenas jobs de validação do container.
+
+2. O Github Actions permite que workflows sejam configuradas para serem disparadas por evento em branches específicas.
+
+### Passos:
+
+1. Na branch develop
+2. git pull -r
+3. criar nova branch com git checkout -b feature/filtra
+4. criar branch no repo remoto com git push ou segundo a orientação por exemplo:
+	1. git push --set-upstream origin nomeDaBranch
+5. senha do personal acess token
+
+### Criar Workflow
+
+1. criar a pasta .github/workflows
+2. criar o arquivo 02-workflow-filtro.yaml
+3. colar o script:
+
+```
+	name: 02 - Workflow Filtro
+	on:
+	  push:
+	    branches: 'feature/**'    EXECUTADO COM PREFIXO FEATURE/QUALQUERCOISA
+	jobs:
+	  echo:
+	    runs-on: ubuntu-latest
+	    steps:
+	      - name: Exibir o evento
+	        run: echo "Workflow disparado por ${{ github.event_name }}"
+```
+
+1. adicionando o arquivo com git add.
+2. git commit
+3. git push
+4. No browser acesse o repo remoto, clique em action
+5. Localiza seu workflow, clique sobre ele
+
+## Ações Pré-Configuradas

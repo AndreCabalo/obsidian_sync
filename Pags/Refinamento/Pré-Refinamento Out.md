@@ -46,8 +46,11 @@ Dificuldade stoke-checkout
 	- Permitir desde que não sobrescreva a promoção 
 - Notificação do checkout 
 	- Usar tópico/pagcontrole receber a notificação do checkout 
-- Criação da Promoção 
+- Criação da Promoção.
 	- Ver quem pode apoiar
+- Calculo será D+1 ou D0.
+- Cenário de cancelamento. Sobreescrever com alguma promo?
+- 
 
 
 Ideia é passar um previsão nossa. para ver se bate com a deles.

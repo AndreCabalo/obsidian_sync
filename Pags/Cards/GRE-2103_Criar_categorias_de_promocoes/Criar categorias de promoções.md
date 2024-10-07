@@ -23,43 +23,66 @@
 	        `ON DELETE CASCADE`  
 	        `ON UPDATE CASCADE);`
 - [x] Testar o migration
-- [ ] Validação do time
-	- [ ] ==Necessidade de criação de INDEX? Pergunta do Bruno==
+- [x] Validação do time
+	- [x] ==Necessidade de criação de INDEX? Pergunta do Bruno==
 - [ ] Validação da Migration com TUCUMAN
 
 # CRIAR SCRIPT PARA EXECUÇÃO DML PARA CATEGORIZAR AS PROMOS ESPECIAIS
 
-"blackfridaygrey", "blackfridaybasico", "blackfridaysupermaxsmart", "blackfridaysupermaxplus", "blackfridaysupermaxpro", "siteoferta2vistapix00", "siteoferta3multipix00", "siteoferta3multipix0", "siteoferta2vistapix0", "sitesupermaxpro"
+"blackfridaygrey", "blackfridaybasico", "blackfridaysupermaxsmart", "blackfridaysupermaxplus", "blackfridaysupermaxpro", "siteoferta2vistapix00", "siteoferta3multipix00", ~~"siteoferta3multipix0"~~, ~~"siteoferta2vistapix0",~~ "sitesupermaxpro", "sitesupermaxsmart", "sitesupermaxplus", "linkacaomaesplus", "linkacaomaespro", "linkacaomaessmart", "siteoferta4pix0", "siteoferta3pix0", "siteoferta2pix0"
 
-- [ ] Ids de promoções especiais:
-	- 710236
-	- 16776
-	- 710239
-	- 710237
-	- 710238
-	- 16583
-	- 16584
-	- 16555
+- [x] Ids de promoções especiais:
+	710236	blackfridaybasico
+	16776	    blackfridaygrey
+	710239	blackfridaysupermaxplus
+	710237	blackfridaysupermaxpro
+	710238	blackfridaysupermaxsmart
+	16483	    linkacaomaesplus
+	16484	    linkacaomaespro
+	16485	    linkacaomaessmart
+	16343	    siteoferta2pix0
+	16583	    siteoferta2vistapix00
+	16584	    siteoferta3multipix00
+	16353	    siteoferta3pix0
+	16344	    siteoferta4pix0
+	16554	    sitesupermaxplus
+	16555	    sitesupermaxpro
+	16553	    sitesupermaxsmart
 
-- [ ] SQL para pegar ID destas promoções:
-	```SELECT IDT_MOBI_PROMOTION FROM mobi_promotion mp WHERE NAM_PROMOTION IN ("blackfridaygrey","blackfridaybasico", "blackfridaysupermaxsmart", "blackfridaysupermaxplus","blackfridaysupermaxpro", "siteoferta2vistapix00", "siteoferta3multipix00","siteoferta3multipix0", "siteoferta2vistapix0", "sitesupermaxpro")```
+- [x] SQL para pegar ID destas promoções:
+		```SELECT IDT_MOBI_PROMOTION FROM mobi_promotion mp WHERE NAM_PROMOTION IN ("blackfridaygrey","blackfridaybasico","blackfridaysupermaxsmart","blackfridaysupermaxplus","blackfridaysupermaxpro","siteoferta2vistapix00","siteoferta3multipix00","siteoferta3multipix0","siteoferta2vistapix0","sitesupermaxpro","sitesupermaxsmart","sitesupermaxplus","linkacaomaesplus","linkacaomaespro","linkacaomaessmart","siteoferta4pix0","siteoferta3pix0","siteoferta2pix0");```
 
-- [ ] Script para criar categoria SPECIAL e SUBSCRIPTION_PLAN e associar promoções espciais
-
-	`-- 1. INSERIR CATEGORIAS`  
-	`INSERT INTO category (NAM_CATEGORY) VALUES ('special');`  
-	`INSERT INTO category (NAM_CATEGORY) VALUES ('subscription_plan');`  
+- [x] Script para criar categoria SPECIAL e SUBSCRIPTION_PLAN e associar promoções especiais
+	`-- 2. ASSOCIANDO PROMOÇÕES ESPECIAIS A CATEGORIA ESPECIAL`
 	
-	`-- 2. ASSOCIANDO PROMOÇÕES ESPECIAIS A CATEGORIA SPECIAL`  
-	`INSERT INTO mobi_promotion_category (IDT_CATEGORY,IDT_MOBI_PROMOTION) VALUES (1,710236);`  
-	`INSERT INTO mobi_promotion_category (IDT_CATEGORY,IDT_MOBI_PROMOTION) VALUES (1,16776);`  
-	`INSERT INTO mobi_promotion_category (IDT_CATEGORY,IDT_MOBI_PROMOTION) VALUES (1,710239);`  
-	`INSERT INTO mobi_promotion_category (IDT_CATEGORY,IDT_MOBI_PROMOTION) VALUES (1,710237);`  
-	`INSERT INTO mobi_promotion_category (IDT_CATEGORY,IDT_MOBI_PROMOTION) VALUES (1,710238);`  
-	`INSERT INTO mobi_promotion_category (IDT_CATEGORY,IDT_MOBI_PROMOTION) VALUES (1,16583);`  
-	`INSERT INTO mobi_promotion_category (IDT_CATEGORY,IDT_MOBI_PROMOTION) VALUES (1,16584);`  
-	`INSERT INTO mobi_promotion_category (IDT_CATEGORY,IDT_MOBI_PROMOTION) VALUES (1,16555);`
+	`INSERT INTO mobi_promotion_category (IDT_CATEGORY, IDT_MOBI_PROMOTION)`
+	`SELECT 1, mp.IDT_MOBI_PROMOTION`
+	`FROM mobi_promotion mp`
+	`WHERE mp.NAM_PROMOTION IN (`
+		`"blackfridaygrey",`
+		`"blackfridaybasico",`
+		`"blackfridaysupermaxsmart",`
+		`"blackfridaysupermaxplus",`
+		`"blackfridaysupermaxpro",`
+		`"siteoferta2vistapix00",`
+		`"siteoferta3multipix00",`
+		`"siteoferta3multipix0",`
+		`"siteoferta2vistapix0",`
+		`"sitesupermaxpro",`
+		`"sitesupermaxsmart",`
+		`"sitesupermaxplus",`
+		`"linkacaomaesplus",`
+		`"linkacaomaespro",`
+		`"linkacaomaessmart",`
+		`"siteoferta4pix0",`
+		`"siteoferta3pix0",`
+		`"siteoferta2pix0"`
+	`);`
 
+- [ ] Aprovação do time
+- [ ] Aprovação do Tucuman
+
+# Alterar consultas das categorias das promoções
 - [ ] Alterar todos os locais em que o feature gateway é consultado para categorizar as promos especiais, utilizar a nova estratégia.
 - [ ] Configurar ambiente de execução local (Banco MYSQL e KAFKA)
 - [ ] Ajustar e criar testes para nova verificação.
