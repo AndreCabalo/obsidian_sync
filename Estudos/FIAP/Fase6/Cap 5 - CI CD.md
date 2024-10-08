@@ -293,3 +293,164 @@ git config user.name "Seu Nome"
 5. Localiza seu workflow, clique sobre ele
 
 ## Ações Pré-Configuradas
+
+Disponíveis no marketplace do github [Marketplace (github.com)](https://github.com/marketplace?type=actions)
+
+Criamos nova branch, passamos um novo script yaml na pasta github workflow:
+
+```
+	name: 03 - Actions
+	
+	on: 
+	    push:
+	        branches: "feature/**"
+	
+	jobs:
+	    checkout_java_docker:
+	        runs-on: ubuntu-latest
+	        steps:            
+	            - name: Git Checkout
+	              uses: actions/checkout@v4
+	
+	            - name: Setup Java SDK
+	              uses: actions/setup-java@v4
+	              with:
+	                distribution: 'temurin' 
+	                java-version: '21'
+	
+	            - name: Build
+	              uses: docker/build-push-action@v6
+	              with:
+	                push: false                    
+	
+	            - name: Executar scripts
+	              run: |
+	                git branch
+	                java --version 
+	                mvn clean package
+```
+
+Onde:
+	no step Git Checkout, usamos a actions "actions/checkout@v4"
+	no step Setup Java, usamos a actions "actions/setup-java@v4"
+	no step Build, usamos o uses "docker/build-push-actiont@v6"
+	A seguir executamos o script para ver a versão do java e comando maven que limpa e empacota a aplicação java
+
+Com isso adiconamos no nosso github e comitamos, damos push por final.
+Indo no repositorio pelo navegador, temos a aba actions, onde podemos ver a execução do serviço em cada etapa.
+
+# Azure e Docker Hub
+
+Acessar [Docker Hub Container Image Library | App Containerization](https://hub.docker.com/?_gl=1*z69foj*_gcl_au*MTgwNTA3MzQwMS4xNzI3NzQwNTE4*_ga*NzczMDAzMzkzLjE3Mjc3NDA1MjE.*_ga_XJWPQMJYHQ*MTcyODM0NDQzMC4zLjEuMTcyODM0NDQzNi41NC4wLjA.)
+Create repository > de o name e deixe como public.
+
+## Criar token no dockerhub
+- Clique no perfil > account settings > personal acess token> generate new token
+- De um nome e deixa opção de permissão READ & WRITE
+- Copie o comando docker login..no terminal teste o comando e em password cole o token
+
+## Azure criando resource group
+
+Acesse Azure [Página inicial - Microsoft Azure](https://portal.azure.com/#home)
+Pesquise por resource groups ou grupo de recursos> criar
+
+## Criar banco de dados MYSQL no Azure
+
+Pesquise no Azure por MYSQL Flexibe server ou Servidor Flexivel
+Criação rápida
+![[Pasted image 20241007205913.png]]
+seguir> aguardar o deployment
+
+## Criar webApp na Azure
+
+Pesquisar por APP SERVICE
+Create WebApp> 
+
+![[Pasted image 20241007210518.png]]
+
+Não criaremos banco de dados>
+Em container:
+![[Pasted image 20241007210711.png]]
+Em network, mantenha acesso publico
+Em monitoramento e segurança, mantenha os valores
+Em tags, mantenha os valores
+Avance para create e clique em create, a aplicação esta sendo submetida a deploymente da aplicação.
+
+Com isso nosso banco mysql esta rodando e nossa aplicação tbm, vc pode consutlar isso pesquisando por MYSQL para ver o banco e pesquisar serviço de aplicativos para ver o app em execução.
+
+## Configurações de app acesso a banco de dados
+
+![[Pasted image 20241007211240.png]]
+[fiap-simple-java-api - Microsoft Azure](https://portal.azure.com/#@fiap.com.br/resource/subscriptions/6da110e7-2136-474e-9f25-1fe885121da1/resourceGroups/rs-fiap-on/providers/Microsoft.Web/sites/fiap-simple-java-api/appServices)
+
+Acesse configurações variáveis de ambiente
+Indo na IDE em resourcer da aplicação teremos application-xx.properties
+![[Pasted image 20241007211736.png]]
+
+### Variavel de profile
+Com isso vamos em add (azure variavel de ambiente)
+	Nome = PROFILE
+	Valor = dev
+Aplicar
+
+### Variavel banco
+DATABASE_URL = bd-fiap-api-dev-andre.mysql.database.azure.com
+
+![[Pasted image 20241007212146.png]]
+Cole esse valor neste intervalo na sua IDE:
+
+![[Pasted image 20241007212339.png]]
+Copie desde JDBC até o final para jogarmos no na variavel de ambiente da Azure
+Coloque as demais variaveis de ambiente, como:
+	Database_USER = fiap
+	Database_PWD = Azure1992!
+	WEBSITES_PORT = 8080                 (Definido no compose)
+
+
+# Script de Continuos Integration (CI)
+
+Tarefas
+	Teste unitários
+	Validação de código
+	Coberturas de código
+	
+Cria as pastas .github/workflows na raiz do projeto
+Crie o arquivo "continuos_integration.yaml"
+Cole o seguinte código:
+
+```
+name: Continuous Integration  
+on:  
+  pull_request:  
+    branches:  
+      - develop  
+jobs:  
+  tests:  
+    runs-on: ubuntu-latest  
+    steps:  
+      - name: Git Checkout  
+        uses: actions/checkout@v4  
+  
+      -   name: Setup Java SDK  
+          uses: actions/setup-java@v4  
+          with:  
+            distribution: 'temurin'  
+            java-version: '21'  
+      -   name: Unit tests  
+          run: mvn test
+            
+```
+
+Executado sempre em pull requests da branch Develop
+Git checkout, setup java e os tests
+git add. commit e push
+criamos outra branch, enviamos ela para remoto 
+e fazemos uma PR para a develop
+e ao tentar mergear deve passar pelo teste ccriado com workflow:
+
+![[Pasted image 20241007223604.png]]
+Apenas se aprovado, poderemos mergear!
+Caso falhe, não será permitido seguir com a PR!
+
+# Script de Continuos Delivery (CD)
+Parei no video Script de continuos delivery no 4/7
