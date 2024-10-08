@@ -1,3 +1,4 @@
+[[Estudos]] [[Alura]] [[Java]]  [[JPA e Hibernate]]
 Temos quatro principais tipos de relações:
 ### **One-To-Many (Um-Para-Muitos):**
 Neste tipo de relação, um registro em uma tabela pode se relacionar com muitos registros em outra tabela. Por exemplo, um professor pode dar aulas para muitos alunos e criar uma relação um-para-muitos entre o professor e os alunos.

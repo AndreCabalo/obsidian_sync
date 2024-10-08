@@ -29,7 +29,10 @@
 
 # CRIAR SCRIPT PARA EXECUÇÃO DML PARA CATEGORIZAR AS PROMOS ESPECIAIS
 
-"blackfridaygrey", "blackfridaybasico", "blackfridaysupermaxsmart", "blackfridaysupermaxplus", "blackfridaysupermaxpro", "siteoferta2vistapix00", "siteoferta3multipix00", ~~"siteoferta3multipix0"~~, ~~"siteoferta2vistapix0",~~ "sitesupermaxpro", "sitesupermaxsmart", "sitesupermaxplus", "linkacaomaesplus", "linkacaomaespro", "linkacaomaessmart", "siteoferta4pix0", "siteoferta3pix0", "siteoferta2pix0"
+"blackfridaybasico", "blackfridaysupermaxsmart", "blackfridaysupermaxplus", "blackfridaysupermaxpro", "siteoferta2vistapix00", "siteoferta3multipix00", "siteoferta2vistapix0", "siteoferta3multipix0", "sitesupermaxsmart", "sitesupermaxpro", "sitesupermaxplus", "linkacaomaesplus", "linkacaomaespro", "linkacaomaessmart", "siteoferta4pix0", "siteoferta3pix0", "siteoferta2pix0"
+
+
+"blackfridaybasico", "blackfridaysupermaxsmart", "blackfridaysupermaxplus", "blackfridaysupermaxpro", "siteoferta2vistapix00", "siteoferta3multipix00", "siteoferta2vistapix0", "siteoferta3multipix0", "sitesupermaxsmart", "sitesupermaxpro"
 
 - [x] Ids de promoções especiais:
 	710236	blackfridaybasico
@@ -79,6 +82,8 @@
 		`"siteoferta2pix0"`
 	`);`
 
+- [ ] Script é DML, então só solicitamos pro Tucman executar no banco
+
 - [ ] Aprovação do time
 - [ ] Aprovação do Tucuman
 
@@ -86,6 +91,7 @@
 - [ ] Alterar todos os locais em que o feature gateway é consultado para categorizar as promos especiais, utilizar a nova estratégia.
 - [ ] Configurar ambiente de execução local (Banco MYSQL e KAFKA)
 - [ ] Ajustar e criar testes para nova verificação.
+- [ ] Prorata null se não tiver.
 
 
 

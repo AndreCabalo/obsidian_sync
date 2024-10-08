@@ -453,4 +453,97 @@ Apenas se aprovado, poderemos mergear!
 Caso falhe, não será permitido seguir com a PR!
 
 # Script de Continuos Delivery (CD)
-Parei no video Script de continuos delivery no 4/7
+
+## Config de segurança
+Azure no nosso webApp (encontrado em app service)
+Achando o projeto, vamos em settings, configuration>
+SCM Basic Publishing Credentials para ON
+
+
+Acesse Deployment> Deployment Center> Manage Publish Profile, Download Profile (faça o download em sua pasta de preferencia)
+
+Abra este arquivo com o editor. C
+Copie o conteudo do arquivo (iremos colar no github)
+
+Acesse o repositorio> Settings > Security > Actions
+Criar New Repository Secret>
+	name - DOCKERHUB_USERNAM
+	secret - seu nome no dockerhub
+Criar New Repository Secret>
+	name - DOCKERHUB_TOKEN
+	secret - cole sua secret criada no dockerhub
+Criar New Repository Secret>
+	name - AZURE_PROFILE
+	secret - cole o conteudo do arquivo que baixamos no passo ali em cima do download profile
+
+## Criaremos nosso workflow de continuos delevery
+Ir para branch develop, git pull
+Criar novo arquivo continuos_delevery.yaml
+Colar o código:
+```
+on:
+    push:
+        branches: "feature/main"
+ 
+env:
+  IMAGE_NAME: simple-api-java
+  AZURE_WEBAPP_NAME: simple-api-java
+ 
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:             
+        -  
+            name: Git Checkout 
+            uses: actions/checkout@v4 
+ 
+        -   name: Setup Java SDK 
+            uses: actions/setup-java@v4 
+            with: 
+              distribution: 'temurin'  
+              java-version: '21'
+        -
+            name: Login to Docker Hub
+            uses: docker/login-action@v3
+            with:
+                username: ${{ secrets.DOCKERHUB_USERNAME }}
+                password: ${{ secrets.DOCKERHUB_TOKEN }}
+        - 
+            name: Build 
+            uses: docker/build-push-action@v6 
+            with: 
+                push: true
+                tags: ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.IMAGE_NAME }}:latest
+    deploy:
+        runs-on: ubuntu-latest
+        needs: build
+        steps:
+        - 
+            name: Deploy to Azure Web App
+            id: deploy-to-webapp
+            uses: azure/webapps-deploy@v2
+            with:
+              app-name: ${{ env.AZURE_WEBAPP_NAME }}
+              publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+              images: 'ghcr.io/${{ secrets.DOCKERHUB_USERNAME }}/${{ env.IMAGE_NAME }}:latest'
+
+```
+
+Analise se o app-name esta correto, pode seta-lo diretamente
+Assim como o campo de images do ultimo step
+git add. git commit git push
+Ve se subiu esse workflow la no repositorio do github
+
+
+Se tiver algum erro, configura se os token do dockerhub esta correto, se não tiver crie um novo e altere em settings do github em setting? security na variavel dockerhub_token
+
+Acesse o workflow e reforce o inicio do workflow para ver se desta vez ira funcionar
+
+Verifique se a imagem ja foi criada, olhando diretamente no dockerhub, dentro da imagem que ja havia feito
+
+Verifique se o deploy foi feito..
+
+No github olhando o conitnuos delevery, podemos ter acesso a url do deploy e acessa-lo ou se preferir busque por web service, acesse sua aplicação >  overview > em default domain tera a URL de acesso, pórem é preciso completar a URL com :
+	`/swagger-ui/index.html`
+
+//falta o conteudo escrito apos o ultimo video
