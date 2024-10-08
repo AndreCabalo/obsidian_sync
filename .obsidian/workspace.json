@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/Criar categorias de promoções.md",
+                "file": "Pags/Cards/GRE- 2117 Criar priority na product_tag/Criar priority na product tag.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/Criar categorias de promoções.md",
+                "file": "Pags/Cards/GRE- 2117 Criar priority na product_tag/Criar priority na product tag.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/Criar categorias de promoções.md",
+                "file": "Pags/Cards/GRE- 2117 Criar priority na product_tag/Criar priority na product tag.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/Criar categorias de promoções.md"
+                "file": "Pags/Cards/GRE- 2117 Criar priority na product_tag/Criar priority na product tag.md"
               }
             }
           },
@@ -204,6 +204,16 @@
   },
   "active": "b7b2b9ab4cafec88",
   "lastOpenFiles": [
+    "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/Criar categorias de promoções.md",
+    "Images/Pasted image 20241007223604.png",
+    "Images/Pasted image 20241007212339.png",
+    "Images/Pasted image 20241007212146.png",
+    "Images/Pasted image 20241007211736.png",
+    "Images/Pasted image 20241007211240.png",
+    "Images/Pasted image 20241007210711.png",
+    "Images/Pasted image 20241007210518.png",
+    "Images/Pasted image 20241007205913.png",
+    "Images/Pasted image 20241004204241.png",
     "Pags/Cards/GRE- 2117 Criar priority na product_tag/Criar priority na product tag.md",
     "Pags/Reuniões paralelas/Cálculo de preço.md",
     "Estudos/FIAP/Fase6/Cap 5 - CI CD.md",
@@ -213,11 +223,8 @@
     "Estudos/FIAP/Startup/Duvidas.md",
     "Estudos/FIAP/Startup/PostLinkedIn.md",
     "Pasted image 20241001145207.png",
-    "Pasted image 20241001145151.png",
-    "Pasted image 20241001165016.png",
     "Desinstalar mysql local (conflito com docker mysql).md",
     "Acessar dentro do Docker.md",
-    "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/Criar categorias de promoções.md",
     "Pags/Refinamento/Pré-Refinamento Out.md",
     "Pags/Cards/GRE-2115- Análise implementação na promotion/DOC CONFLUENCE.md",
     "Configurando Ç.md",
@@ -232,22 +239,14 @@
     "Pags/Cards/GRE-2115- Análise implementação na promotion/GRE-2115 Implementação cat de promoções.md",
     "Pags/Cards/GRE-2115- Análise implementação na promotion/Doc como estava.md",
     "Pags/Cards/GRE-2115- Análise implementação na promotion/ATT.md",
-    "Pags/Links úteis/Feature Gateway.md",
     "Pags/Reuniões paralelas",
-    "Images/Pasted image 20240930141043.png",
     "Pags/Cards/GRE- 2117 Criar priority na product_tag",
     "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes",
-    "Excalidraw/Drawing 2024-09-23 18.17.48.excalidraw.png",
     "Pags/Refinamento",
     "Estudos/Alura/Java/JPA",
     "Pags/Repo Pipeline Jenkins",
     "Estudos/FIAP/Statup",
     "Pags/Config dos RUN/Store-Checkout",
-    "Images/Pasted image 20240930141026.png",
-    "Images/Pasted image 20240930141439.png",
-    "Images/Pasted image 20240930152900.png",
-    "Images/Pasted image 20240930153556.png",
-    "Images/Pasted image 20240930140256.png",
     "Excalidraw/Untitled.canvas",
     "Estudos/Instruções/PostgreSQL",
     "Pags/Daily"
