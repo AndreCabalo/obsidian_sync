@@ -22,10 +22,41 @@
 	        `FOREIGN KEY (IDT_MOBI_PROMOTION) REFERENCES mobi_promotion(IDT_MOBI_PROMOTION)`  
 	        `ON DELETE CASCADE`  
 	        `ON UPDATE CASCADE);`
+
+	- Codigo sugerido pelo TUCUMAN
+
+	`-- 1. CRIAÇÃO DA TABELA CATEGORIA`
+	`CREATE TABLE store_promotion.category (`
+	`IDT_CATEGORY BIGINT NOT NULL AUTO_INCREMENT COMMENT '[NOT_SECURITY_APPLY] - IDENTIFICADOR DA CATEGORY',`
+	`NAM_CATEGORY VARCHAR(50) NOT NULL COMMENT '[NOT_SECURITY_APPLY] - NOME DA CATEGORY',`
+	`PRIMARY KEY CATEGORY_PK (IDT_CATEGORY)`
+	`);`
+	
+	
+	`-- 2. CRIAÇÃO DA TABELA MOBI PROMOTION CATEGORY`
+	`CREATE TABLE store_promotion.mobi_promotion_category (`
+	`IDT_CATEGORY BIGINT NOT NULL COMMENT '[NOT_SECURITY_APPLY] - IDENTIFICADOR DA TABELA CATEGORY',`
+	`IDT_MOBI_PROMOTION INT NOT NULL COMMENT '[NOT_SECURITY_APPLY] - IDENTIFICADOR DA TABELA MOBI PROMOTION',`
+	`PRIMARY KEY MOBIPROMCATE_PK (IDT_CATEGORY, IDT_MOBI_PROMOTION),`
+	`KEY MOBIPROMCATE_IDX01 (IDT_CATEGORY),`
+	`KEY MOBIPROMCATE_IDX02 (IDT_MOBI_PROMOTION),`
+	`CONSTRAINT CATEGORY_MOBIPROMCATE_FK FOREIGN KEY (IDT_CATEGORY) REFERENCES category(IDT_CATEGORY),`
+	`CONSTRAINT MOBIPROM_MOBIPROMCATE_FK FOREIGN KEY (IDT_MOBI_PROMOTION) REFERENCES mobi_promotion(IDT_MOBI_PROMOTION)`
+	`);`
 - [x] Testar o migration
 - [x] Validação do time
 	- [x] ==Necessidade de criação de INDEX? Pergunta do Bruno==
-- [ ] Validação da Migration com TUCUMAN
+- [x] Validação da Migration com [TUCUMAN](https://jiraps.atlassian.net/servicedesk/customer/portal/150/SDAD-34111)
+- [x] Mergear a PR
+- [x] Fazer a entrega em QA  [Link JENKINS]([https://jenkins.intranet.pagseguro.uol/job/CUSTOMER_SUCCESS/job/ps-store/job/store-promotion-k8s/](https://jenkins.intranet.pagseguro.uol/job/CUSTOMER_SUCCESS/job/ps-store/job/store-promotion-k8s/ "https://jenkins.intranet.pagseguro.uol/job/customer_success/job/ps-store/job/store-promotion-k8s/"))  - tudo dentro do ps-store- k8s 
+	- [x] Build with parameters
+	- [x] ![[Pasted image 20241009121056.png]]
+- [x] bumpversion MINOR
+- [x] Se falhar no SONAR, segue gambiarra:
+	- [x] Ir em replay.
+	- [x] E alterar o stage SONAR na mão, apagar o stage sonar apagado.
+- [ ] Merger na Master
+- [ ] Fazer os msm passos de migração no Jenkins, so database migration prod, bumpversion patch (mas nao faz diferença nenhuma)
 
 # CRIAR SCRIPT PARA EXECUÇÃO DML PARA CATEGORIZAR AS PROMOS ESPECIAIS
 
@@ -81,25 +112,30 @@
 		`"siteoferta3pix0",`
 		`"siteoferta2pix0"`
 	`);`
-
-- [ ] Script é DML, então só solicitamos pro Tucman executar no banco
-
-- [ ] Aprovação do time
-- [ ] Aprovação do Tucuman
+- [ ] Aprovação do [TUCUMAN](https://jiraps.atlassian.net/servicedesk/customer/portal/150/SDAD-34221?created=true)
 
 # Alterar consultas das categorias das promoções
+- [x] Achar maneira de consultar o tipo da promoção.
 - [ ] Alterar todos os locais em que o feature gateway é consultado para categorizar as promos especiais, utilizar a nova estratégia.
-- [ ] Configurar ambiente de execução local (Banco MYSQL e KAFKA)
+- [ ] Alterar as regras de elegibilidade: caso o cliente esteja com uma promoção do tipo assinatura, ele se torna inelegível a todas as outras promos
+- [ ] Adicionar valor PRO-RATA no end point - **GET /v1/promotions/{promotionName}, quando a promoção for do novo tipo de assinaturas. Caso a promoção não seja do tipo novo de assinaturas, o campo “proRataPrice” deve retornar null. O cálculo é proporcional ao dia da request no mês, considerando D0:**
+    
+    - No primeiro dia do mês, o valor é cheio (considerar valor promocional)
+        
+    - Exemplo considerando exatamente a metade do mês:
+        
+
+	`{ ... "products": [ { "hash": "5a59efd11053578d", "originalPrice": 16.68, "promotionPrice": 20.00, "proRataPrice": 10.00, "status": "OK" }, { "hash": "5cd31781d153ba42", "originalPrice": 226.8, "promotionPrice": 50.0, "proRataPrice": 25.0, "status": "OK" } ], ... }`
 - [ ] Ajustar e criar testes para nova verificação.
 - [ ] Prorata null se não tiver.
 
 
 
 # Observações e duvidas
-- Nome das tabelas da promotion estão todas em lowercase, matenho este padrão ou sigo as demais apps com tudo em maisculo?
-- Crio uma copia com tabelas_aud?
-- Vi que usam BIGINT para IDT, mas no nosso caso serão poucos, posso usar INT ou TINYINT?
 
-## Observação Extra
-Notei que a tabela JA EXISTENTE mobi_user_promotion_code_active_aud tem mais de 30carateres. isso não gera nenhum problema certo? 
+PRECISO QUE APROVEM A PR DA FEATURE -> DEVELOP
+NA SEQUÊNCIA ABRO OUTRA PR DA DEVELOP -> MASTER 
+APOS IR PARA MASTER RODO A PIPE COM O MIGRATION PARA A DEVELOP
 
+
+NAO ESQUECER DE DAR UM GIT PULL DEVELOP NA BRANCH DA SUB DE CONSULTA

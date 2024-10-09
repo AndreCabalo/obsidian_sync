@@ -45,14 +45,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estudos/FIAP/Fase6/Cap 5 - CI CD.md",
+                "file": "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/Criar categorias de promoções.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eafeb5eaa4a498d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/Criar categorias de promoções.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -118,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Estudos/FIAP/Fase6/Cap 5 - CI CD.md",
+                "file": "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/Criar categorias de promoções.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -135,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Estudos/FIAP/Fase6/Cap 5 - CI CD.md",
+                "file": "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/Criar categorias de promoções.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estudos/FIAP/Fase6/Cap 5 - CI CD.md"
+                "file": "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/Criar categorias de promoções.md"
               }
             }
           },
@@ -198,12 +210,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3c88c5dcdc652bcd",
+  "active": "9518c628098a9a0e",
   "lastOpenFiles": [
-    "Estudos/SQL.md",
-    "Pags/Links úteis/Feature Gateway.md",
+    "Pags/Recorrência/09 de out 2024.md",
+    "Images/Pasted image 20241009153642.png",
+    "Images/Pasted image 20241009121056.png",
     "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/Criar categorias de promoções.md",
+    "Estudos/SQL.md",
+    "Apos subir em QA ou PROD.md",
     "Pags/Cards/GRE- 2117 Criar priority na product_tag/Criar priority na product tag.md",
+    "Pags/Cards/GRE-2115- Análise implementação na promotion/ATT.md",
+    "Estudos/FIAP/Fase6/Cap 5 - CI CD.md",
+    "Pags/Links úteis/Feature Gateway.md",
     "Pags/Links úteis/Criar Chamado Tucuman.md",
     "Pags/Config dos RUN/Store-Promotion/RUNS da Store Promotion.md",
     "Estudos/Alura/Java/JPA/Relacionamentos entre Classes.md",
@@ -215,7 +233,6 @@
     "Estudos/Spring.md",
     "Estudos/Estudos.md",
     "Pags/Dicas/TUCUMAN.md",
-    "Estudos/FIAP/Fase6/Cap 5 - CI CD.md",
     "Images/Pasted image 20241007223604.png",
     "Images/Pasted image 20241007212339.png",
     "Images/Pasted image 20241007212146.png",
@@ -224,19 +241,13 @@
     "Images/Pasted image 20241007210711.png",
     "Images/Pasted image 20241007210518.png",
     "Images/Pasted image 20241007205913.png",
-    "Images/Pasted image 20241004204241.png",
     "Pags/Reuniões paralelas/Cálculo de preço.md",
     "Estudos/FIAP/FIAP.md",
     "Estudos/FIAP/Startup/GlicoTech.md",
     "Estudos/FIAP/Startup/PITCH.md",
     "Estudos/FIAP/Startup/Duvidas.md",
     "Estudos/FIAP/Startup/PostLinkedIn.md",
-    "Pasted image 20241001145207.png",
     "Desinstalar mysql local (conflito com docker mysql).md",
-    "Acessar dentro do Docker.md",
-    "Pags/Cards/GRE-2115- Análise implementação na promotion/DOC CONFLUENCE.md",
-    "Configurando Ç.md",
-    "Estudos/Alura/Java/Selecionar versão do JAVA.md",
     "Pags/Reuniões paralelas",
     "Pags/Cards/GRE- 2117 Criar priority na product_tag",
     "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes",

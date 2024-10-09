@@ -7,7 +7,6 @@ Criar script
 criar tabela categorias linkar com a tabela promoções(existente mobi_promotion) N para N
 
 
-
 PHO - Banco do PS CORE
 
 Ref do id da promoçao
