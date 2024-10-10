@@ -1,5 +1,5 @@
 [[Pagbank]]
-# CRIAR SCRIPT PARA CRIAÇÃO DE TABELAS
+# Scrip para criação de tabelas
 
 - [x] Criar script
 
@@ -55,10 +55,10 @@
 - [x] Se falhar no SONAR, segue gambiarra:
 	- [x] Ir em replay.
 	- [x] E alterar o stage SONAR na mão, apagar o stage sonar apagado.
-- [ ] Merger na Master
-- [ ] Fazer os msm passos de migração no Jenkins, so database migration prod, bumpversion patch (mas nao faz diferença nenhuma)
+- [x] Merger na Master
+- [x] Fazer os msm passos de migração no Jenkins, so database migration prod, bumpversion patch (mas nao faz diferença nenhuma)
 
-# CRIAR SCRIPT PARA EXECUÇÃO DML PARA CATEGORIZAR AS PROMOS ESPECIAIS
+# Script  exec DML categorizar especiais 
 
 "blackfridaybasico", "blackfridaysupermaxsmart", "blackfridaysupermaxplus", "blackfridaysupermaxpro", "siteoferta2vistapix00", "siteoferta3multipix00", "siteoferta2vistapix0", "siteoferta3multipix0", "sitesupermaxsmart", "sitesupermaxpro", "sitesupermaxplus", "linkacaomaesplus", "linkacaomaespro", "linkacaomaessmart", "siteoferta4pix0", "siteoferta3pix0", "siteoferta2pix0"
 
@@ -116,8 +116,10 @@
 
 # Alterar consultas das categorias das promoções
 - [x] Achar maneira de consultar o tipo da promoção.
-- [ ] Alterar todos os locais em que o feature gateway é consultado para categorizar as promos especiais, utilizar a nova estratégia.
+- [x] Alterar todos os locais em que o feature gateway é consultado para categorizar as promos especiais, utilizar a nova estratégia.
 - [ ] Alterar as regras de elegibilidade: caso o cliente esteja com uma promoção do tipo assinatura, ele se torna inelegível a todas as outras promos
+- [ ] Criar regra de elegibilidade para nova categoria
+	- [ ] Consulta o endpoint do pagControle:
 - [ ] Adicionar valor PRO-RATA no end point - **GET /v1/promotions/{promotionName}, quando a promoção for do novo tipo de assinaturas. Caso a promoção não seja do tipo novo de assinaturas, o campo “proRataPrice” deve retornar null. O cálculo é proporcional ao dia da request no mês, considerando D0:**
     
     - No primeiro dia do mês, o valor é cheio (considerar valor promocional)
@@ -130,12 +132,52 @@
 - [ ] Prorata null se não tiver.
 
 
+- [ ]Em strategy, colocar eligibilidade para pagcontrole consultar o end point do 
+
+
 
 # Observações e duvidas
 
-PRECISO QUE APROVEM A PR DA FEATURE -> DEVELOP
-NA SEQUÊNCIA ABRO OUTRA PR DA DEVELOP -> MASTER 
-APOS IR PARA MASTER RODO A PIPE COM O MIGRATION PARA A DEVELOP
+Posso excluir os FeatureGatewayService ou apenas os deixo com a marca depreciado?
+- [ ] FeatureGatewayService
+- [ ] FeatureGatewayServiceImpl
+- [ ] FeatureGatewayServiceImplTest
 
 
-NAO ESQUECER DE DAR UM GIT PULL DEVELOP NA BRANCH DA SUB DE CONSULTA
+
+# Apos ajustar a version no banco promotion
+
+Rodar este commit para ajustar QA
+
+Commit upgrade versão da promotion:  
+[https://github.com/ps-store/store-promotion/commit/57287463a8082dfb147d09f1ba50ebeefd7df9ec](https://github.com/ps-store/store-promotion/commit/57287463a8082dfb147d09f1ba50ebeefd7df9ec "https://github.com/ps-store/store-promotion/commit/57287463a8082dfb147d09f1ba50ebeefd7df9ec")
+
+
+Nelio alves Udemy
+
+
+# Dicas Caio
+
+ Sempre que for transascionar entre branch da pelo git stash safe.  para salvar na branch 
+excluir os features
+
+Categforyserviceimpl
+nao cria logica em cima de ID, tipo categoria, usar o nome, nome é mais forte
+pos nao temos controle do id
+
+criamos logica pra campo mais forte, no caso nome da categoria
+
+Se eu tenho o nome da promotion. posso so dar o get no campo
+
+instanciar...
+
+query que retornar mobi pormotion, e damos oget para pegar categoria
+
+ou query com join para apartir do nome pegar a categoria
+
+pegar o objeti 
+
+
+
+ao inves de crair duas ispeciaposso colocar is type. ispormotionofCategorya, retornando true ou false, passando promoçao e categoria para valiidar
+
