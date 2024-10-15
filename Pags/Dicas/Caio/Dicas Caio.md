@@ -6,3 +6,5 @@
 	Criar logica sempre em campo mais forte, no caso categoria
 
 - Ao usar métodos, tente verificar a quantidade de vezes que vc manda um query, talvez você possa usar uma query mais complexa, que apensa com uma query você consiga os dados necessarios ao inves de bater no banco diversas vezes.
+
+PACKAGE sempre em minusculo, TUDO!

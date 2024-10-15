@@ -11,13 +11,28 @@
             "id": "c9f6de8a52e7da0c",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Images/Pasted image 20241014120115.png"
+                "file": "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/Criar categorias de promoções.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d0187c5e448e1ebb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/Criar categorias de promoções.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Images/Pasted image 20241014120115.png",
+                "file": "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/Criar categorias de promoções.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -100,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Images/Pasted image 20241014120115.png",
+                "file": "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/Criar categorias de promoções.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Images/Pasted image 20241014120115.png"
+                "file": "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/Criar categorias de promoções.md"
               }
             }
           },
@@ -163,8 +178,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9518c628098a9a0e",
+  "active": "d0187c5e448e1ebb",
   "lastOpenFiles": [
+    "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/Untitled.md",
+    "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/Criar categorias de promoções.md",
+    "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/Drawing 2024-10-15 17.36.38.excalidraw.md",
+    "Estudos/GitHub/Adicionar a um commit ja feito que nao deu push.md",
+    "Pags/Dicas/Caio/Dicas Caio.md",
+    "Pags/Links úteis/Store  Promotion Links.md",
+    "Images/Pasted image 20241014120115.png",
     "Images/Pasted image 20241014201728.png",
     "Images/Pasted image 20241014201718.png",
     "Images/Pasted image 20241014201504.png",
@@ -173,12 +195,9 @@
     "Images/Pasted image 20241014200141.png",
     "Estudos/FIAP/Fase6/Cap 7 - Hora do Compliance.md",
     "Images/Pasted image 20241014152758.png",
-    "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/Criar categorias de promoções.md",
-    "Pags/Links úteis/Store  Promotion Links.md",
     "Pags/Cards/GRE-2115- Análise implementação na promotion/ATT.md",
     "Pags/Métricas e RoadMap/12out2024.md",
     "Pags/Métricas e RoadMap",
-    "Images/Pasted image 20241014120115.png",
     "Pags/Links úteis/Store Products Links.md",
     "Pags/Links úteis/Criar Chamado Tucuman.md",
     "Pags/Links úteis/Feature Gateway.md",
@@ -193,17 +212,13 @@
     "Estudos/GitHub/Vincular local existente ao novo remoto.md",
     "Estudos/GitHub/Tirar os itens de stage - Restore --stage.md",
     "Estudos/GitHub/Pegar nova branch criada - FETCH.md",
-    "Pags/Dicas/Caio/Dicas Caio.md",
     "Pags/Dicas/Caio",
     "Estudos/FIAP/Fase6/Cap 6 - Application Lifecycle Management.md",
     "Images/Pasted image 20241010221201.png",
     "Images/Pasted image 20241010212410.png",
-    "Images/Pasted image 20241010212043.png",
     "Estudos/FIAP/NEXT 2024/Instruções NEXT 2024.md",
     "Estudos/FIAP/NEXT 2024",
     "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/SEM mobipromotioncategory/Service/PromotionEligibleServiceImpl.md",
-    "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/SEM mobipromotioncategory/Service/CategoryService.md",
-    "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/SEM mobipromotioncategory/Service/CategoryServiceImpl.md",
     "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/SEM mobipromotioncategory/Service",
     "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/SEM mobipromotioncategory/Repository",
     "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/SEM mobipromotioncategory/Entity",

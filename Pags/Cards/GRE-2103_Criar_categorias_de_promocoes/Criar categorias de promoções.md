@@ -189,16 +189,50 @@ verificar se ele ja ta no pagcontrole
 
 fazer como a notContainsPromotionOrCOntainsDEfaultPromotion
 
-SUBIR 
-
-subir docker compose, para rodar localmente
-
-localhost local promotion
-http://localhost:8080/swagger-ui.html#/
-
-
-Colocar o service retornando o nome da categoria, ao inves de verificar se ela é igual a categoria. 
-
-
+- [x] Colocar o service retornando o nome da categoria, ao inves de verificar se ela é igual a categoria. 
 
 AONDE EU PEGO O PREÇO DA ASSINATURA? PARA O CALCULO PRO RATA?
+
+
+# Execução com CAIO
+
+Recuperar todo promoção e colocar em um entityDTO e não recuperar apenas o nome da promoção ou a categoria. (Usou o mobiPromotionV0 que é tipo um DTO)
+	Fizemos isso usando um repository que retorna toda um entidade
+
+
+
+Usamos o método que busca a promoção atual do usaria, que antes usava safepayId para usar codCostumer
+
+| MES COM 31 |             | MES COM 30 |             | MES COM 29 |             |
+| ---------- | ----------- | ---------- | ----------- | ---------- | ----------- |
+| 1          | R$ 29,90    | 1          | R$ 29,90    | 1          | R$ 29,90    |
+| 2          | R$ 28,93548 | 2          | R$ 28,90333 | 2          | R$ 28,86897 |
+| 3          | R$ 27,97097 | 3          | R$ 27,90667 | 3          | R$ 27,83793 |
+| 4          | R$ 27,00645 | 4          | R$ 26,91000 | 4          | R$ 26,80690 |
+| 5          | R$ 26,04194 | 5          | R$ 25,91333 | 5          | R$ 25,77586 |
+| 6          | R$ 25,07742 | 6          | R$ 24,91667 | 6          | R$ 24,74483 |
+| 7          | R$ 24,11290 | 7          | R$ 23,92000 | 7          | R$ 23,71379 |
+| 8          | R$ 23,14839 | 8          | R$ 22,92333 | 8          | R$ 22,68276 |
+| 9          | R$ 22,18387 | 9          | R$ 21,92667 | 9          | R$ 21,65172 |
+| 10         | R$ 21,21935 | 10         | R$ 20,93000 | 10         | R$ 20,62069 |
+| 11         | R$ 20,25484 | 11         | R$ 19,93333 | 11         | R$ 19,58966 |
+| 12         | R$ 19,29032 | 12         | R$ 18,93667 | 12         | R$ 18,55862 |
+| 13         | R$ 18,32581 | 13         | R$ 17,94000 | 13         | R$ 17,52759 |
+| 14         | R$ 17,36129 | 14         | R$ 16,94333 | 14         | R$ 16,49655 |
+| 15         | R$ 16,39677 | 15         | R$ 15,94667 | 15         | R$ 15,46552 |
+| 16         | R$ 15,43226 | 16         | R$ 14,95000 | 16         | R$ 14,43448 |
+| 17         | R$ 14,46774 | 17         | R$ 13,95333 | 17         | R$ 13,40345 |
+| 18         | R$ 13,50323 | 18         | R$ 12,95667 | 18         | R$ 12,37241 |
+| 19         | R$ 12,53871 | 19         | R$ 11,96000 | 19         | R$ 11,34138 |
+| 20         | R$ 11,57419 | 20         | R$ 10,96333 | 20         | R$ 10,31034 |
+| 21         | R$ 10,60968 | 21         | R$ 9,96667  | 21         | R$ 9,27931  |
+| 22         | R$ 9,64516  | 22         | R$ 8,97000  | 22         | R$ 8,24828  |
+| 23         | R$ 8,68065  | 23         | R$ 7,97333  | 23         | R$ 7,21724  |
+| 24         | R$ 7,71613  | 24         | R$ 6,97667  | 24         | R$ 6,18621  |
+| 25         | R$ 6,75161  | 25         | R$ 5,98000  | 25         | R$ 5,15517  |
+| 26         | R$ 5,78710  | 26         | R$ 4,98333  | 26         | R$ 4,12414  |
+| 27         | R$ 4,82258  | 27         | R$ 3,98667  | 27         | R$ 3,09310  |
+| 28         | R$ 3,85806  | 28         | R$ 2,99000  | 28         | R$ 2,06207  |
+| 29         | R$ 2,89355  | 29         | R$ 1,99333  | 29         | R$ 1,03103  |
+| 30         | R$ 1,92903  | 30         | R$ 0,99667  |            |             |
+| 31         | R$ 0,96     |            |             |            |             |
