@@ -19,7 +19,7 @@ Serão estudados nesse capítulo, os ciclos de vida do software em duas situaç�
 - Caminha entre etapas, onde a equipe trabalha junto em cada uma dessas fases:
 	- Analise.
 	- Desenho da solução, explicando o funcionamento previsto, protótipo e documentação.
-	- Construção, programação da aplicação, testes unitários.
+	- Implementação, construção, programação da aplicação, testes unitários.
 	- Testes de integração da aplicação, homologação com o cliente final.
 	- Implantação, finalizar manuais, helps de sistemas, treinamento e treinamento suporte, carregar dados do legado, conectar com legado para pegar funções do legado.
 	- Manutenção/Sustentação do sistema.
@@ -127,4 +127,30 @@ Importante ressaltar que o ciclo de vida bem administrado permite:
 
 # Ciclo de vida de software Produção
 
-Vídeo 10/15 (se não me engano o ultimo vídeo)
+Tipos de ciclo de vida e software diferentes apontam para Framework diferentes
+
+## RUP (Rational Unified Process)
+
+- Criado para o ciclo cascata de projeto (Phases)
+- Adaptado para o ciclo incremento (Iterations)
+	![[Pasted image 20241014200141.png]]
+	![[Pasted image 20241014201432.png]]
+## Scrum
+
+- Criado para evolutivo/espiral.
+- Sprint não é elástica, se não cumprir o time box, a tarefa é enviada para a próxima sprint tbm.
+![[Pasted image 20241014201504.png]]
+
+# Melhores práticas de gerenciamento do ciclo de vida em Devops
+
+![[Pasted image 20241014201718.png]]![[Pasted image 20241014201728.png]]
+
+# Ciclo de vida de Software Tendências
+
+
+- Não existe premissa de um ciclo de vida especifico.
+- Oque irá te guiar para um tipo de ciclo são as os fatores:
+	- Burocracia
+	- Prazo
+	- Definição ou falta de definição
+	- Flexibilidade do projeto.

@@ -219,7 +219,7 @@ Esse processo reduz os riscos de implantação, pois faz a integração de peque
 
 ## Entrega continua (CD)
 
-Garanteque o software esteja sempre pronto para ser lançado, promovendo entregas mais rápidas, consistentes e de alta qualidade.
+Garante que o software esteja sempre pronto para ser lançado, promovendo entregas mais rápidas, consistentes e de alta qualidade.
 
 A entrega contínua estende os princípos da intregração continua ao assegurar que cada alteração no código permaneça em um estado pronto para produção.
 
