@@ -4,43 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5fc06221c18af1d2",
+        "id": "d25404d20ab01635",
         "type": "tabs",
         "children": [
           {
-            "id": "1fd23193459f566e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pags/Refinamento/Refinamento 1-10-24.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "478133bdb03e71bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pags/Links úteis/Criar Chamado Tucuman.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b7b2b9ab4cafec88",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "3c88c5dcdc652bcd",
+            "id": "c9f6de8a52e7da0c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -52,7 +20,7 @@
             }
           },
           {
-            "id": "eafeb5eaa4a498d5",
+            "id": "d0187c5e448e1ebb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -64,7 +32,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -210,54 +178,54 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9518c628098a9a0e",
+  "active": "d0187c5e448e1ebb",
   "lastOpenFiles": [
-    "Estudos/GitHub/Tirar os itens de stage.md",
-    "Estudos/GitHub/Pegar nova branch criada.md",
+    "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/Untitled.md",
+    "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/Criar categorias de promoções.md",
+    "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/Drawing 2024-10-15 17.36.38.excalidraw.md",
+    "Estudos/GitHub/Adicionar a um commit ja feito que nao deu push.md",
+    "Pags/Dicas/Caio/Dicas Caio.md",
+    "Pags/Links úteis/Store  Promotion Links.md",
+    "Images/Pasted image 20241014120115.png",
+    "Images/Pasted image 20241014201728.png",
+    "Images/Pasted image 20241014201718.png",
+    "Images/Pasted image 20241014201504.png",
+    "Images/Pasted image 20241014201432.png",
+    "Images/Pasted image 20241014200831.png",
+    "Images/Pasted image 20241014200141.png",
+    "Estudos/FIAP/Fase6/Cap 7 - Hora do Compliance.md",
+    "Images/Pasted image 20241014152758.png",
+    "Pags/Cards/GRE-2115- Análise implementação na promotion/ATT.md",
+    "Pags/Métricas e RoadMap/12out2024.md",
+    "Pags/Métricas e RoadMap",
+    "Pags/Links úteis/Store Products Links.md",
+    "Pags/Links úteis/Criar Chamado Tucuman.md",
+    "Pags/Links úteis/Feature Gateway.md",
+    "Pags/Links úteis/Gerenciador.md",
+    "Pags/Links úteis/Jenkins.md",
+    "Pags/Refinamento/Refinamento 8-10-24.md",
+    "Pags/Refinamento/Pré-Refinamento 1-10-24.md",
+    "Excalidraw/Drawing 2024-09-23 18.17.48.excalidraw.md",
+    "Pags/Cards/GRE-2115- Análise implementação na promotion/DOC CONFLUENCE.md",
+    "Estudos/GitHub/Trocar de branch sem perde trabalho - Stash.md",
+    "Estudos/GitHub/Clonar pelo SSH.md",
     "Estudos/GitHub/Vincular local existente ao novo remoto.md",
-    "Estudos/GitHub/GIT HUB.md",
+    "Estudos/GitHub/Tirar os itens de stage - Restore --stage.md",
+    "Estudos/GitHub/Pegar nova branch criada - FETCH.md",
+    "Pags/Dicas/Caio",
+    "Estudos/FIAP/Fase6/Cap 6 - Application Lifecycle Management.md",
+    "Images/Pasted image 20241010221201.png",
+    "Images/Pasted image 20241010212410.png",
+    "Estudos/FIAP/NEXT 2024/Instruções NEXT 2024.md",
+    "Estudos/FIAP/NEXT 2024",
     "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/SEM mobipromotioncategory/Service/PromotionEligibleServiceImpl.md",
-    "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/SEM mobipromotioncategory/Service/CategoryService.md",
-    "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/SEM mobipromotioncategory/Service/CategoryServiceImpl.md",
-    "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/SEM mobipromotioncategory/Repository/MobiPromotionRepository.md",
-    "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/SEM mobipromotioncategory/Repository/CategoryRepository.md",
-    "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/SEM mobipromotioncategory/Entity/MobiPromotion.md",
-    "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/SEM mobipromotioncategory/Entity/Category.md",
-    "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/COM mobipromotioncategory/Service/MobiPromotionCategoryService.md",
     "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/SEM mobipromotioncategory/Service",
     "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/SEM mobipromotioncategory/Repository",
     "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/SEM mobipromotioncategory/Entity",
-    "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/COM mobipromotioncategory/Entity/MobiPromotionCategory.md",
     "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/COM mobipromotioncategory/Service",
     "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/COM mobipromotioncategory/Repository",
     "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/COM mobipromotioncategory/Entity",
-    "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/Criar categorias de promoções.md",
     "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/SEM mobipromotioncategory",
-    "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/COM mobipromotioncategory/Service/MobiPromotionCategoryServiceImpl.md",
-    "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/COM mobipromotioncategory",
-    "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/COM mobipromotioncategory/Repository/MobiPromotionCategoryRepository.md",
-    "Estudos/Alura/Java/JPA e Hibernate.md",
-    "Pags/Links úteis/Jenkins.md",
-    "Pags/Links úteis/Kafka.md",
-    "Estudos/FIAP/FIAP.md",
-    "Pags/Recorrência/09 de out 2024.md",
-    "Images/Pasted image 20241009153642.png",
-    "Images/Pasted image 20241009121056.png",
-    "Estudos/SQL.md",
-    "Apos subir em QA ou PROD.md",
-    "Pags/Cards/GRE- 2117 Criar priority na product_tag/Criar priority na product tag.md",
-    "Pags/Cards/GRE-2115- Análise implementação na promotion/ATT.md",
-    "Estudos/FIAP/Fase6/Cap 5 - CI CD.md",
-    "Pags/Acessar HOST QA",
-    "Images/Pasted image 20241007223604.png",
-    "Images/Pasted image 20241007212339.png",
-    "Images/Pasted image 20241007212146.png",
-    "Images/Pasted image 20241007211736.png",
-    "Images/Pasted image 20241007211240.png",
-    "Images/Pasted image 20241007210711.png",
-    "Images/Pasted image 20241007210518.png",
-    "Images/Pasted image 20241007205913.png",
-    "Pags/Reuniões paralelas",
     "Excalidraw/Untitled.canvas"
   ]
 }
