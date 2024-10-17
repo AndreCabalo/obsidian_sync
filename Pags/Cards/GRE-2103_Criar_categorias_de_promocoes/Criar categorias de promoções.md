@@ -119,8 +119,8 @@
 - [x] Criar regra de elegibilidade para nova categoria
 	- [x] Consulta o endpoint do pagControle: [Link](https://api.pagcontrole.qa.intranet.pags/swagger-ui/swagger-ui/index.html#/subscriber-controller/isEligible)
 - [x] Desenvolver exception para caso tente verificar eligibilidade da pagcontrole e de ruim
-- [ ] Alterar as regras de elegibilidade: caso o cliente esteja com uma promoção do tipo assinatura, ele se torna inelegível a todas as outras promos
-- [ ] Adicionar valor PRO-RATA no end point - **GET /v1/promotions/{promotionName}, quando a promoção for do novo tipo de assinaturas. Caso a promoção não seja do tipo novo de assinaturas, o campo “proRataPrice” deve retornar null. O cálculo é proporcional ao dia da request no mês, considerando D0:**
+- [x] Alterar as regras de elegibilidade: caso o cliente esteja com uma promoção do tipo assinatura, ele se torna inelegível a todas as outras promos
+- [x] Adicionar valor PRO-RATA no end point - **GET /v1/promotions/{promotionName}, quando a promoção for do novo tipo de assinaturas. Caso a promoção não seja do tipo novo de assinaturas, o campo “proRataPrice” deve retornar null. O cálculo é proporcional ao dia da request no mês, considerando D0:**
 
     - No primeiro dia do mês, o valor é cheio (considerar valor promocional)valor prorata
 
@@ -138,7 +138,7 @@
 	
 - [ ] Ajustar e criar testes para nova verificação.
 - [ ] Prorata null se não tiver.
-- [ ] Excluir os FeatureGatewaY
+- [x] Excluir os FeatureGatewaY
 # Observações e duvidas
 
 - Duvida da query do categoryRepository
@@ -236,3 +236,16 @@ Usamos o método que busca a promoção atual do usaria, que antes usava safepay
 | 29         | R$ 2,89355  | 29         | R$ 1,99333  | 29         | R$ 1,03103  |
 | 30         | R$ 1,92903  | 30         | R$ 0,99667  |            |             |
 | 31         | R$ 0,96     |            |             |            |             |
+
+
+# Duvidas durante o TEST
+
+SpecialPromotionEligibilityStategyTest
+	Metodo testCustomerIsNotEligibleBecauseHisPromotionIsNotDefault
+		Esta dizendo que existem mockitos desnecessários, mas se os removo um validação para de funcionar.
+
+SpecialPromotionEligibilityStategy
+	Metodo notContainsPromotionOrContainsDefaultPromotion, só esta validando se é igual a promotion, devemos validar se não contem? ou mudar o nome do método?
+
+MobiUserPromotionServiceImpl
+	Método givenRequestWhenGetActivePromotionByUser, não esta conseguindo achar a promotion DEFAULT.. não entendi a logica.

@@ -134,7 +134,6 @@ Divide a qualidade em duas categorias principais:
 ## Qualidade do uso
 - Concentra-se na experiência do usuário final.
 - Composto por 5 características 
-- 
 ![[Pasted image 20241015213711.png]]
 	 **Eficácia** - 
 		Exemplo Positivo:
@@ -163,5 +162,60 @@ Divide a qualidade em duas categorias principais:
 			Apple Maps por sua imprecisão, falta de suporte para diferentes contextos e usos, especialmente quando comparado ao Google Maps da época.
 		
 ## Qualidade do produto
-Abrange as características inerentes ao software.
-Composto por 8 características
+- Abrange as características inerentes ao software.
+- Composto por 8 principais categorias:
+![[Pasted image 20241017180945.png]]
+	- Adequação funcional
+		- Podendo ser analisado sob 3x princiais dimensões:
+			- Completude funcional, verifica se o software tem todas as funções necessárias para realizar as tarefas previstas.
+			- Correção funcional, refere-se á precisão dos resultados produzidos pelas funções do software.
+			- Pertinência funcional, avalia se as funções do software são adequadas para as tarefas que se propõem a realizar.
+	- Desempenho
+		- Avaliamos a rapidez com que o software responde e o quão eficiente utiliza os recursos. Este aspecto pode ser analisado sob três principais dimensões:
+			- Comportamento em tempo avalia a rapidez com que o software responde ás ações dos usuários e executa suas funções.
+			- Recursos utilizados
+			- Capacidade, refere-se á habilidade do software em lidar com grandes volumes de dados e transações esperadas.
+	- Compatiblidade
+		- Pode ser dividido em duas principais dimensões:
+			- Coexistência, refere-se á capacidade do software de operar sem conflitos junto a outros produtos no mesmo sitema.
+			- Interoperabilidade, diz a respeito da habilidade em se comunicar e operar com outros sistemas ou produtos.
+	- Usabilidade
+		- Capacidade de ser entendido avalaia se os usuários conseguem compreender como usar o software.Sendo intuitivo.
+		- Capacidade de aprendizagem.
+		- Operacionalidade, mede a facilidade com que os user podem operar e controlar o software.
+		- Estética da interface
+		- Acessibilidade analise se o software é acessível a todos os user, incluindo aqueles com deficiência.
+	- Confiabilidade
+		- Capacidade de recuperar-se de falhas, divida em quatro dimensões:
+			- Maturidade, nivel de refinamento do software ao longo do tempo.
+			- DIsponibilidade.
+			- Tolerância a flahas, mede a capacidade de lidar com falhar de maneira controlada.
+			- Capacidade de recuperaçãso, eficácia em se recuperar rapidamente de falhas. Exemplo o banco Oracle.
+	- Segurança
+		- Confidencialidade
+		- Integridade, prevenir modificações não autorizadas nos dados.
+		- Não-repúdio envolve a capacidade de fornecer provas de ações realizadas, por exemplo o blockchain do Bitcoin que ofeere um registro imutável e verificável de todas as transações.
+		- Autenticidade é a verificação de identidade do user, por exemplo o multifator da microsoft e da google.
+		- Responsabilidade, refere-se a capacidade do software de rastrear ações dos user.
+	- Manutenibilidade
+		- Garante que o software possa ser facilmente ajustado ao longo do tempo
+		- Cinco dimensões:
+			- Modularidade
+			- Reusabilidade
+			- Analisabilidade, facilitar o diagnostico.
+			- Modificabilidade, facilidade com que o software possa ser alterado.
+			- Testabilidade.
+	- Portabilidade
+		- Avaliar a adaptação do software, divida em três dimensões:
+			- Adaptabilidade, habilidade de se ajustar a diferentes ambientes e plataformas.
+			- Instabilidade, capacidade de ser instalado em diferentes ambientes, por exemplo a combinação de ferramentas com maven e gradle no java.
+			- Substitutibilidade, capacidade de subistituir por outro produto de software em determinado ambiente.
+
+
+# Norma ISO/IEC 29119 Testes de Software
+
+Estabele norams internacionais que uniformizam os processos de testes de software.
+
+## Componentes principais
+
+3/9 

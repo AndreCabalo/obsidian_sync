@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/Criar categorias de promoções.md",
+                "file": "Estudos/FIAP/Fase6/Cap 7 - Hora do Compliance.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/Criar categorias de promoções.md",
+                "file": "Estudos/FIAP/Fase6/Cap 7 - Hora do Compliance.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/Criar categorias de promoções.md",
+                "file": "Estudos/FIAP/Fase6/Cap 7 - Hora do Compliance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/Criar categorias de promoções.md"
+                "file": "Estudos/FIAP/Fase6/Cap 7 - Hora do Compliance.md"
               }
             }
           },
@@ -180,8 +180,24 @@
   },
   "active": "d0187c5e448e1ebb",
   "lastOpenFiles": [
-    "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/Untitled.md",
+    "Images/Pasted image 20241017180945.png",
+    "Estudos/SQL.md",
+    "Estudos/FIAP/Fase6/Cap 7 - Hora do Compliance.md",
     "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/Criar categorias de promoções.md",
+    "Images/Pasted image 20241015213711.png",
+    "Images/Pasted image 20241015200821.png",
+    "Images/Pasted image 20241015200242.png",
+    "Images/Pasted image 20241015200135.png",
+    "Images/Pasted image 20241015194022.png",
+    "Images/Pasted image 20241015193820.png",
+    "Estudos/FIAP/NEXT 2024/Challenge.md",
+    "Estudos/FIAP/Startup/PostLinkedIn.md",
+    "Estudos/FIAP/Startup/PITCH.md",
+    "Estudos/FIAP/Startup/GlicoTech.md",
+    "Estudos/FIAP/Startup/Duvidas.md",
+    "Estudos/FIAP/NEXT 2024/Instruções NEXT 2024.md",
+    "Pags/Links úteis/Readers-API.md",
+    "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/Untitled.md",
     "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/Drawing 2024-10-15 17.36.38.excalidraw.md",
     "Estudos/GitHub/Adicionar a um commit ja feito que nao deu push.md",
     "Pags/Dicas/Caio/Dicas Caio.md",
@@ -190,11 +206,6 @@
     "Images/Pasted image 20241014201728.png",
     "Images/Pasted image 20241014201718.png",
     "Images/Pasted image 20241014201504.png",
-    "Images/Pasted image 20241014201432.png",
-    "Images/Pasted image 20241014200831.png",
-    "Images/Pasted image 20241014200141.png",
-    "Estudos/FIAP/Fase6/Cap 7 - Hora do Compliance.md",
-    "Images/Pasted image 20241014152758.png",
     "Pags/Cards/GRE-2115- Análise implementação na promotion/ATT.md",
     "Pags/Métricas e RoadMap/12out2024.md",
     "Pags/Métricas e RoadMap",
@@ -206,19 +217,8 @@
     "Pags/Refinamento/Refinamento 8-10-24.md",
     "Pags/Refinamento/Pré-Refinamento 1-10-24.md",
     "Excalidraw/Drawing 2024-09-23 18.17.48.excalidraw.md",
-    "Pags/Cards/GRE-2115- Análise implementação na promotion/DOC CONFLUENCE.md",
-    "Estudos/GitHub/Trocar de branch sem perde trabalho - Stash.md",
-    "Estudos/GitHub/Clonar pelo SSH.md",
-    "Estudos/GitHub/Vincular local existente ao novo remoto.md",
-    "Estudos/GitHub/Tirar os itens de stage - Restore --stage.md",
-    "Estudos/GitHub/Pegar nova branch criada - FETCH.md",
     "Pags/Dicas/Caio",
-    "Estudos/FIAP/Fase6/Cap 6 - Application Lifecycle Management.md",
-    "Images/Pasted image 20241010221201.png",
-    "Images/Pasted image 20241010212410.png",
-    "Estudos/FIAP/NEXT 2024/Instruções NEXT 2024.md",
     "Estudos/FIAP/NEXT 2024",
-    "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/SEM mobipromotioncategory/Service/PromotionEligibleServiceImpl.md",
     "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/SEM mobipromotioncategory/Service",
     "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/SEM mobipromotioncategory/Repository",
     "Pags/Cards/GRE-2103_Criar_categorias_de_promocoes/SEM mobipromotioncategory/Entity",
