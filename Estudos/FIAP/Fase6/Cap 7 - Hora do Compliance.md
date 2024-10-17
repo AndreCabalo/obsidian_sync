@@ -55,6 +55,113 @@ Quando módulos ou sistemas são combinados e enfrentam problemas. Por exemplo q
 
 # Tipos de testes
 
-//parei no vídeo 2/9
+Exemplo 1- 
+![[Pasted image 20241015193820.png]]
+
+Exemplo 2 - 
+![[Pasted image 20241015194022.png]]
+
+## Testes unitários
+- Realizados a nível de código e focados em métodos e funções individuais.
+- Conhecidos por sua automação eficiente, rápida execução e facilidade de diagnóstico
+- Exemplo:
+	Um teste de unidade que verifica se uma função retorna o resultado correto, retornando 8 ao somar 3 e 5.
+## Testes de integração
+- Complementam os testes unitários ao avaliar como diferentes módulos de serviço interagem quando combinados.
+- Este teste identifica problemas nas interfaces entre módulos, como incompatibilidade de dados ou falhas de comunicação.
+- Exemplo:
+	Em um aplicativo de lista de tarefas, um teste de integração verifica se uma nova tarefa adicionada parece corretamente na lista, garantindo que os módulos de adicionar e exibir tarefas funcionem bem juntos.
+
+## Teste Funcional
+- Objetivo assegurar que os objetivos das tasks estão sendo atendidos
+## Teste Não Funcional
+- Testando elementos externo do software
+- Que impactam na experiencia de uso do usuário
+- Por exemplo, testes de segurança.
+## Testes de regressão/ confirmação
+- Sempre que um componente de software é editado.
+- Testas a integração com todos componentes que trabalham em conjunto com este software, afim de garantir a integração.
+-  Sempre que houver alterações, rodar os testes antigos para ver se ele continua atendendo os requisitos.
+## Testes de desempenho
+- Focado em escalabilidade, verificamos como o sistema se comporta sob diferentes cargas de trabalho, medindo a confiabilidade, velocidade, escalabilidade e a capacidade de resposta do aplicativo.
+- Exemplo:
+		Testar o desempenho de um aplicativo de streaming de vídeo pode revelar gargalos na capacidade do servidor ao lidas com muitos usuários simultâneos, indicando a necessidade de melhorias na infra.
+
+## Testes de segurança
+- Essenciais para garantir que o software esteja protegido contra ameaças e vulnerabilidades.
+- Eles incluem testes de penetração para simular ataque e identificar falhas de segurança.
+- Verifica também as normas de segurança.
+- Exemplo:
+		Um app bancário online, um teste de penetração pode relevar uma vulnerabilidade na autenticação de dois fatores, destacando a necessidade de correção para proteger os dados financeiros dos usuários.
+## Testes exploratórios
+- Permite que os testadores explorem o software de forma criativa e intuitiva, sem seguir um roteiro predefinido.
+- Exemplo:
+		Um app de e-commerce, pode identificar que a aplicação apresenta lentidão ao aplicar vários filtros de pesquisa rapidamente, um problema que pode passar despercebido em testes automatizados.
+
+# Técnicas de testes
+
+Existem duas técnicas bem conhecidas, a de caixa branca e caixa preta.
+
+Exemplo 1 -
+![[Pasted image 20241015200135.png]]
+
+Exemplo 2 - 
+![[Pasted image 20241015200242.png]]
+## Testes de caixa branca/ Estrutural
+- Dev possui acesso ao código-fonte, verifica a lógica técnica.
+- Um teste que se preocupa com oque acontece dentro do software para analisar desempenho.
+- Desenvolvedor se preocupa com as entradas, a forma como o software as trata.
+- Trabalham com telemétria.
+	(Como o software vai se desenvolvendo, entendendo tempo de resposta e dados de desempenho)
+## Testes de caixa preta
+- O testador não possui conhecimento sobre o código-fonte e foca apenas nas atendas e saídas.
+- Lembra o conceito da avião, oque acontece aqui dentro não é conhecido, mas todos os dados são armazenados aqui, se necessários abrir, temos todas as infos aqui dentro.
 
 
+# Pirâmide de testes
+
+Sugere a proporção ideal de diferentes testes para garantir uma cobertura eficiente e eficaz.
+A medida que se sobe na pirâmide, os testes tornam-se mais lentos e caros, por isso devem ser menos numerosos.
+Essa distribuição ajuda a detectar e corrigir problemas de forma eficiente e econômica.
+
+![[Pasted image 20241015200821.png]]
+
+# Norma Internacional ISO/IEC 25010:2011
+Amplamente conhecida e utilizada na indústria para assegurar que os produtos de software sejam seguros, eficientes e satisfatórios.
+
+Divide a qualidade em duas categorias principais:
+
+## Qualidade do uso
+- Concentra-se na experiência do usuário final.
+- Composto por 5 características 
+- 
+![[Pasted image 20241015213711.png]]
+	 **Eficácia** - 
+		Exemplo Positivo:
+			Google Search onde as pesquisas são relevantes e eficientes. 
+		Exemplo Negativo:
+			Apple Mapas, com direções imprecisas e dados incorretos.
+	 **Eficiência** - 
+		Exemplo Positivo:
+			Amazon Prime, oferecendo entregas rápidas com custo baixo para os usuários.
+		Exemplo Negativo:
+			Checkout automatizado de algumas redes de supermercado, que frequentemente tem problemas técnicos.
+	**Satisfação** -
+		Exemplo Positivo:
+			Aplicativo de mensagens Slack, com sua interface intuitiva e experiência agradável.
+		Exemplo Negativo:
+			Windows Vista, interface confusa e problemas de desempenho.
+	**Segurança** -
+		Exemplo Positivo:
+			Gerenciador e cofre de senhas LastPass, com suas robustas medidas de segurança.
+		Exemplo Negativo:
+			Vazamento de dados do Facebook em 2018.
+	**Cobertura do contexto** - 
+		Exemplo Positivo:
+			Microsoft office, oferecem suporte para diversas plataformas e dispositivos, exemplo em cobertura do contexto.
+		Exemplo Negativo:
+			Apple Maps por sua imprecisão, falta de suporte para diferentes contextos e usos, especialmente quando comparado ao Google Maps da época.
+		
+## Qualidade do produto
+Abrange as características inerentes ao software.
+Composto por 8 características
