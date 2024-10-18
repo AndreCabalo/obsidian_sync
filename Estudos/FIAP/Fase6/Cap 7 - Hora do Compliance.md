@@ -214,8 +214,53 @@ Divide a qualidade em duas categorias principais:
 
 # Norma ISO/IEC 29119 Testes de Software
 
-Estabele norams internacionais que uniformizam os processos de testes de software.
+Estabelece normas internacionais que uniformizam os processos de testes de software.
 
 ## Componentes principais
 
-3/9 
+### Teste funcional
+Verificar se o software atende os requisitos funcionais
+
+### Teste não funcional
+Verifica condições de carga, teste de desempenho, experiência de usuário e segurança
+
+### Relatório de Testes
+Documento que descreve as atividades e os resultados dos testes realizados.
+Inclui informações detalhadas sobre o escopo dos testes, casos de teste executados, resultados obtidos e quaisquer defeitos encontrados.
+Fornece um visão clara do status do software e da sua qualidade geral, auxiliando os stakeholders na tomada de decisões.
+
+## Processo de Testes
+
+Planejamento é essencial, com definição dos objetivos do teste, metas claras e oque espera se alcançar com as atividades em testes.
+
+Monitoramento durante a execução dos testes, se possível com relatórios de status de teste.
+
+Análise e projeto de testes
+
+Na fase de implementação e execução dos testes, o ambiente de testes deve ser configurado adequadamente para garantir que os testes sejam realizados em condições controladas.
+
+Relatório detalhados dos testes deve ser preparado, documentado os resultados obtidos e quaisquer problemas remanescentes.
+
+Por fim vem o encerramento dos testes no qual envolve a revisão da eficiência e eficácia das atividades realizadas. Toda documentação deve ser arquivada para referência futura.
+
+## Documentação do teste
+As principais recomendações para documentação de testes
+
+- Organizacional, inclui:
+	- Política de teste (define a abordagem geral e os princípios orientados para os testes em toda organização).
+	- Estratégia de teste (detalha a abordagem de teste para toda a organização, abrangendo as metodologia, ferramentas e processos a serem utilizados para atingir os objetivos de qualidade.)
+Tipos de documentos:
+- Plano de teste
+- Relatórios de Anomalias
+- Relatório de Ambiente de teste, descreve as características e configurações do ambiente onde os testes foram realizados, garantindo que os resultado sejam interpretados no contexto adequado.
+- Relatório de Conclusão de Nível de teste, fornece um resumo final dos resultados e da eficácia dos testes em um nível especifico, oferecendo uma visão geral da qualidade do software.
+
+
+# Técnicas de Test
+São métodos sistemáticos utilizados para criar e testar situações de teste com objetivo de identificar defeitos e validar o software.
+
+- Técnicas baseadas em especificações.
+	- Consiste em testar as bordas dos intervalor de entrada para verificar como o sistema lida com os valores extremos e limites de dados.
+	- Teste combinatório, que foca na combinação de diferentes entradas para explorar como essas combinações afetam o comportamento do sistema.
+- Técnicas baseadas na estrutura do código.
+	- Incluem o teste de ramificação ou decisão, que verifica todos os ramos e decisões do código. assegurando que cada caminho possível seja testado para identificar falhas em diferentes ramificações do fluxo de controle.
